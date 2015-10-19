@@ -1,0 +1,24 @@
+<template name="showNGOProfile">
+{{#with myNGOProfile}}
+    <h3>
+    {{focus}} <br/>
+    {{yearOfEstablishment}}<br/>
+    {{mission}}<br/>
+    {{vision}}<br/>
+    {{contact}}<br/>
+    {{founder}}<br/>
+    {{contactPerson}}<br/>
+    {{address}}<br/>
+    {{RegistrationNo}}<br/>
+    {{bio}}<br/>
+    {{achievements}}<br/>
+    {{targetAudience}}<br/>
+    {{accreditation}}<br/>
+        {{#with FS.GetFile 'images' picture}}
+            <img class="" src="{{this.url}}" alt="" >
+
+        {{/with}}
+    </h3>
+    <a href="{{pathFor 'updateNgoProfile'}}" class="updateNgoProfile">Update Profile</a>
+    {{/with}}
+</template>

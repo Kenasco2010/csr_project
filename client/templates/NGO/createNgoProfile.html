@@ -1,0 +1,29 @@
+<template name="createNgoProfile">
+        <div class="col-lg-4 col-md-3 col-xs-1"></div>
+        <div class="col-lg-4 col-md-6 col-xs-10">
+            {{#autoForm collection="Ngo" id="insertNgoForm" type="insert"}}
+                <fieldset>
+                    <legend>Insert NGO profile</legend>
+                    {{> afQuickField name='companyName'}}
+                    {{> afQuickField name='focus'}}
+                    {{> afQuickField name='yearOfEstablishment'}}
+                    {{> afQuickField name='mission' rows=6}}
+                    {{> afQuickField name='vision' rows=6}}
+                    {{> afQuickField name='contact'}}
+                    {{> afQuickField name='founder'}}
+                    {{> afQuickField name='contactPerson'}}
+                    {{> afQuickField name='address'}}
+                    {{> afQuickField name='RegistrationNo'}}
+                    {{> afQuickField name='bio' rows=6}}
+                    {{> afQuickField name='achievements'}}
+                    {{> afQuickField name='targetAudience'}}
+                    {{> afQuickField name='accreditation'}}
+                    <h4>Add your company logo</h4>
+                    {{> afQuickField name="picture" }}
+
+                </fieldset>
+                <button type="submit" class="btn btn-primary">Insert</button>
+            {{/autoForm}}
+        </div>
+        <div class="col-lg-4 col-md-3 col-xs-1"></div>
+</template>
