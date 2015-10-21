@@ -29,7 +29,7 @@ var mySubmitFunc = function(error, state){
       Router.go('/create-ngo-profile');
 
     } else if(state === "signUp" && Meteor.user().profile.companyType === "corporateOrganization") {
-      Router.go('/create-corporate-org-profile');
+      Router.go('/create-company-profile');
     }
   }
 };

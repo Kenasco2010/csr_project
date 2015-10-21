@@ -1,0 +1,43 @@
+<template name="showCompanyProfile">
+	<!-- {{#with myCompanyProfile}}
+    <h3>
+        {{name}} <br/>
+        {{bio}}<br/>
+        {{countryOfOperation}}<br/>
+        {{project}}<br/>
+        {{location}}<br/>
+            {{#with FS.GetFile 'images' picture}}
+                <img class="" src="{{this.url}}" alt="" >
+
+            {{/with}}
+        </h3>
+        <a href="{{pathFor 'updateCompanyProfile'}}" class="updateCompanyProfile">Update Profile</a>
+    {{/with}} -->
+    <section id="main-content" class="main-content pad-60">
+            <div class="container">
+            {{#with myCompanyProfile}}
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="article">
+                            <h3>Welcome {{name}}</h3>
+                            <h4>Clean &amp; Elegant Joomla Charity Template</h4>
+                            <p class="text-justify"> {{bio}}</p>
+                            <p class="text-justify">{{countryOfOperation}}</p>
+                            <p class="text-justify">{{project}}</p>
+                            <p class="text-justify">{{location}}</p>
+                        </div> <!--/.article-->
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div id="about-slider" class="about-slider">
+                            {{#with FS.GetFile 'images' picture}}
+                                <img class="" src="{{this.url}}" alt="" >
+
+                            {{/with}}
+                        </div>
+                    </div>
+                </div> <!--/.row-->
+                <a href="{{pathFor 'updateCompanyProfile'}}" class="updateCompanyProfile">Update Profile</a>
+            {{/with}}
+            </div> <!--/.container-->
+</section>
+</template>

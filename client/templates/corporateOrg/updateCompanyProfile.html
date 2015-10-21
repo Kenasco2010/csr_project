@@ -1,0 +1,25 @@
+<template name="updateCompanyProfile">
+	<h3 style="text-align:center;">Update Company profile</h3>
+            <section id="main-content" class="main-content pad-60">
+            {{#autoForm collection="CorpOrg" id="updateCompanyForm" doc=updateCompanyDoc type="update"}}
+            <div class="container">
+            	<div class="row">
+            		<div class="col-sm-6 col-xs-12">
+            			<div class="article">
+            				{{> afQuickField name='name'}}
+            				{{> afQuickField name='bio' rows=6}}
+                    		{{> afQuickField name='countryOfOperation' row=3}}
+            			</div>
+            		</div>
+            		<div class="col-sm-6 col-xs-12">
+            		{{> afQuickField name='project' row=5}}
+                    {{> afQuickField name='location' row=3}}
+                    <h4>Add your company logo</h4>
+                    {{> afQuickField name="picture" }}
+                    <button type="submit" class="btn btn-primary">Update</button>
+            		</div>
+            	</div>
+            </div>
+            {{/autoForm}}
+            </section>
+</template>
