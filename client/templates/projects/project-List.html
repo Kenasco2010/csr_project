@@ -1,0 +1,21 @@
+<template name="projectList">
+{{#each listOfProjects}}
+    {{projectName}}<br/>
+    {{scope}}<br/>
+    {{areaOfExecution}}<br/>
+    {{budget}}<br/>
+    {{timeLine}}<br/>
+    {{endGoal}}<br/>
+    {{influencer}}<br/>
+    {{status}}<br/>
+    {{projectBio}}<br/>
+    {{targetAudience}}<br/>
+    {{#with FS.GetFile 'images' picture}}
+        <img class="" src="{{this.url}}" alt="" >
+
+    {{/with}}
+    <a href="{{pathFor 'updateProject'}}" id="updateProject">Update Project</a>
+    {{> quickRemoveButton collection="Projects" _id=this._id}}
+
+{{/each}}
+</template>

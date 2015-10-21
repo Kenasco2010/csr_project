@@ -38,11 +38,11 @@ AccountsTemplates.configure({
   onSubmitHook: mySubmitFunc
 });
 
-
-Accounts.createUser({email: email, password: password}, function(err) {
- if(!err){
-   alert("Thank you for signing up")
- }
-});
+//
+//Accounts.createUser({email: email, password: password}, function(err) {
+// if(!err){
+//   alert("Thank you for signing up")
+// }
+//});
 
 
