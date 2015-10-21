@@ -1,0 +1,23 @@
+<template name="projectDetails">
+    <h2>Project Details</h2>
+    {{#with projectDetail}}
+        {{projectName}}<br/>
+        {{scope}}<br/>
+        {{areaOfExecution}}<br/>
+        {{budget}}<br/>
+        {{timeLine}}<br/>
+        {{endGoal}}<br/>
+        {{influencer}}<br/>
+        {{status}}<br/>
+        {{projectBio}}<br/>
+        {{targetAudience}}<br/>
+        {{#with FS.GetFile 'images' picture}}
+            <img class="" src="{{this.url}}" alt="" >
+
+        {{/with}}
+        <!--<a href="{{pathFor 'updateProject'}}" id="updateProject" class="btn btn-primary" type="submit">Update Project</a>-->
+        <!--<a href="#" type="submit" class="btn btn-primary">view more</a>-->
+        <!--{{> quickRemoveButton collection="Projects" _id=this._id onError=onError onSuccess=onSuccess beforeRemove=beforeRemove class="btn btn-danger"}}-->
+
+    {{/with}}
+</template>
