@@ -1,0 +1,27 @@
+<template name="createProject">
+        <div class="col-lg-4 col-md-3 col-xs-1"></div>
+        <div class="col-lg-4 col-md-6 col-xs-10">
+            {{#autoForm collection="Projects" id="insertProjectsForm" type="insert"}}
+                <fieldset>
+                    <legend>Add a Project</legend>
+                    {{> afQuickField name='projectName'}}
+                    {{> afQuickField name='scope' options="allowed" noselect=true}}
+                    {{> afQuickField name='areaOfExecution'}}
+                    {{> afQuickField name='budget'}}
+                    {{> afQuickField name='timeLine' }}
+                    {{> afQuickField name='endGoal'}}
+                    {{> afQuickField name='influencer'}}
+                    {{> afQuickField name='status'}}
+                    {{> afQuickField name='projectBio' rows=5 }}
+                    {{> afQuickField name='targetAudience'}}
+
+                    <h4>Add your company logo</h4>
+                    {{> afQuickField name="picture" }}
+                </fieldset>
+                <button type="submit" id="insertProject" class="btn btn-primary">Insert</button>
+            {{/autoForm}}
+        </div>
+        <div class="col-lg-4 col-md-3 col-xs-1"></div>
+
+
+</template>

@@ -5,7 +5,7 @@
                 <fieldset>
                     <legend>Insert NGO profile</legend>
                     {{> afQuickField name='companyName'}}
-                    {{> afQuickField name='focus'}}
+                    {{> afQuickField name='focus' options="allowed" noselect=true}}
                     {{> afQuickField name='yearOfEstablishment'}}
                     {{> afQuickField name='mission' rows=6}}
                     {{> afQuickField name='vision' rows=6}}
@@ -20,7 +20,6 @@
                     {{> afQuickField name='accreditation'}}
                     <h4>Add your company logo</h4>
                     {{> afQuickField name="picture" }}
-
                 </fieldset>
                 <button type="submit" class="btn btn-primary">Insert</button>
             {{/autoForm}}
