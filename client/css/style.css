@@ -19,7 +19,7 @@ Version: 1.0
 5.  Slideshow
 
 */
-/* 1. Global Styles 
+/* 1. Global Styles
 ------------------------------------------------------------------------------------- */
 
 html {
@@ -45,7 +45,7 @@ body {
     background-color: #fff;
     left: 0;
     top: 0;
-    background-image: url(loader.gif);
+    /*background-image: url(loader.gif);*/
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .pad-b-30 {
-    padding-bottom: 30px; 
+    padding-bottom: 30px;
 }
 
 .pad-40 {
@@ -99,7 +99,7 @@ body {
     background: #f51f2c;
     border-color: #f51f2c;
 }
-/* 2. Typography 
+/* 2. Typography
 ------------------------------------------------------------------------------------- */
 
 body,
@@ -282,7 +282,7 @@ h3.sm-title {
     line-height: 1.5em;
     font-weight: 300;
 }
-/* 3. Top Header 
+/* 3. Top Header
 ------------------------------------------------------------------------------------- */
 
 .top-header {
@@ -423,7 +423,7 @@ h3.sm-title {
     color: #959595;
 }
 
-/* 4. Header 
+/* 4. Header
 ------------------------------------------------------------------------------------- */
 /*---4.1 Logo---*/
 .navbar-brand {
@@ -558,7 +558,7 @@ h3.sm-title {
 .mega-dropdown-menu .form-group {
     margin-bottom: 3px;
 }
-/* 5. Slideshow 
+/* 5. Slideshow
 ------------------------------------------------------------------------------------- */
 
 .main-slideshow {}
@@ -664,13 +664,13 @@ h3.sm-title {
     left: 48%;
     bottom: 20px;
 }
-/* 6. Feature Header 
+/* 6. Feature Header
 ------------------------------------------------------------------------------------- */
 
 .feature-header {
     padding: 60px 0 0;
 }
-/* 7. Feature 
+/* 7. Feature
 ------------------------------------------------------------------------------------- */
 /*7.1 Feature Style*/
 .feature-wrap {
@@ -823,12 +823,12 @@ h3.sm-title {
     font-size: 14px;
 }*/
 
-/* 9. Urgent Causes Header 
+/* 9. Urgent Causes Header
 ------------------------------------------------------------------------------------- */
 .causes-header {
     padding: 80px 0 20px;
 }
-/* 10. Urgent Causes 
+/* 10. Urgent Causes
 ------------------------------------------------------------------------------------- */
 /*10.1 Urgent Causes Style 1*/
 .causes {
@@ -1145,7 +1145,7 @@ figure.effect-roxy a {
     color: #fff;
     text-decoration: none;
 }
-/* 11. Extensions 
+/* 11. Extensions
 ------------------------------------------------------------------------------------- */
 .extensions {
     background: #fafafa;
@@ -1192,13 +1192,13 @@ figure.effect-roxy a {
     margin-bottom: 30px;
 }
 
-/* 12. Event Header 
+/* 12. Event Header
 ------------------------------------------------------------------------------------- */
 .event-header {
     padding: 80px 0 40px;
 }
 
-/* 13. Event Timer 
+/* 13. Event Timer
 ------------------------------------------------------------------------------------- */
 .event {
     padding-bottom: 80px;
@@ -1246,10 +1246,10 @@ figure.effect-roxy a {
 #countdown li span:hover {
     cursor: pointer;
 }
-/* 14. Volunteer Header 
+/* 14. Volunteer Header
 ------------------------------------------------------------------------------------- */
 
-/* 15. Volunteer 
+/* 15. Volunteer
 ------------------------------------------------------------------------------------- */
 .volunteer-section {
     background: #fafafa;
@@ -1353,7 +1353,7 @@ figure.effect-roxy a {
 }
 
 
-/* 16. Clients 
+/* 16. Clients
 ------------------------------------------------------------------------------------- */
 .client-slider img  {
     opacity: 0.5;
@@ -1379,7 +1379,7 @@ figure.effect-roxy a {
 }
 
 
-/* 17. Footer Section 
+/* 17. Footer Section
 ------------------------------------------------------------------------------------- */
 .footer-section {
     border-bottom: 1px solid #0f0f0f;
@@ -1468,7 +1468,7 @@ figure.effect-roxy a {
 
 .footer-social .social-icon i.fa {
     background: #2e2e2e;
-    color: ##fff;
+    color: #fff;
     display: inline-block;
     cursor: pointer;
     margin: 0;
@@ -1511,7 +1511,7 @@ figure.effect-roxy a {
     margin: 0 1px 4px 0;
 }
 
-/* 18. Copyright Section 
+/* 18. Copyright Section
 ------------------------------------------------------------------------------------- */
 .copyright {
     border-top: 1px solid #363636;
@@ -1554,7 +1554,7 @@ figure.effect-roxy a {
 }
 
 
-/* 19. Utility  
+/* 19. Utility
 ------------------------------------------------------------------------------------- */
 .utility {
     padding: 80px 0;
@@ -1679,7 +1679,7 @@ figure.effect-roxy a {
     }
 }
 
-/* 20. Facts 
+/* 20. Facts
 ------------------------------------------------------------------------------------- */
 .facts {
     padding: 80px 0;
@@ -1755,7 +1755,7 @@ figure.effect-roxy a {
     padding-top: 30px;
     margin-bottom: 0 !important;
 }
-/* 21. Navhelper 
+/* 21. Navhelper
 ------------------------------------------------------------------------------------- */
 /*21.1 Page Head*/
 .nav-helper {
@@ -1802,13 +1802,13 @@ figure.effect-roxy a {
 .breadcrumb>li+li:before {
     color: #fff;
 }
-/* 22. Main Content 
+/* 22. Main Content
 ------------------------------------------------------------------------------------- */
 /*22.1 Article Styles*/
 .main-content {}
 .main-content .article {}
-.main-content .article h1, 
-.main-content .article h2, 
+.main-content .article h1,
+.main-content .article h2,
 .main-content .article h3,
 .main-content .article h4,
 .main-content .article h5,
@@ -1817,7 +1817,7 @@ figure.effect-roxy a {
     margin: 0 0 10px;
 }
 .main-content .article h1, h2, h3, h4, h5, h6 {}
-/* 23. Page widget 
+/* 23. Page widget
 ------------------------------------------------------------------------------------- */
 /*23.1 Tabs*/
 
@@ -1852,7 +1852,7 @@ figure.effect-roxy a {
 .progress {
     border-radius: 0;
 }
-/* 24. Other Styles 
+/* 24. Other Styles
 ------------------------------------------------------------------------------------- */
 .list-group-item,
 .list-group-item a {
@@ -1867,7 +1867,7 @@ figure.effect-roxy a {
 .alert {
     border-radius: 0;
 }
-/* 25. Divider 
+/* 25. Divider
 ------------------------------------------------------------------------------------- */
 .divider {
     margin-bottom: 20px;
@@ -1950,7 +1950,7 @@ figure.effect-roxy a {
     position: absolute;
     line-height: 25px;
 }
-/* 26. Dropcaps 
+/* 26. Dropcaps
 ------------------------------------------------------------------------------------- */
 .dropcap1 {
     font-size: 42px;
@@ -1979,7 +1979,7 @@ figure.effect-roxy a {
     float: left;
     padding-left: 12px;;
 }
-/* 27. Easy Pie Chart 
+/* 27. Easy Pie Chart
 ------------------------------------------------------------------------------------- */
 .chart {
     position: relative;
@@ -2003,7 +2003,7 @@ figure.effect-roxy a {
     text-transform: uppercase;
 }
 
-/* 28. Pricing Tables 
+/* 28. Pricing Tables
 ------------------------------------------------------------------------------------- */
 .price-box {
     text-align: center;
@@ -2050,14 +2050,14 @@ figure.effect-roxy a {
 a.btn-price {
     color: #959595;
     font-size: 14px;
-    border: 0; 
+    border: 0;
     border: 2px solid #e3e3e3;
     background: #fff;
     border-radius: 0;
     padding: 8px 12px;
 }
 
-/* 29. Lsts 
+/* 29. Lsts
 ------------------------------------------------------------------------------------- */
 ol li,
 ul.default li {
@@ -2082,7 +2082,7 @@ ul.default li {
     font-weight: 400;
     padding: 8px 0;
 }
-/* 30. Tooltips 
+/* 30. Tooltips
 ------------------------------------------------------------------------------------- */
 .tooltipster-riana .tooltipster-content {
     font-size: 14px;
@@ -2129,7 +2129,7 @@ label > b {
     margin-top: 25px;
     float: left;
 }
-/* 32. Blog Page 
+/* 32. Blog Page
 ------------------------------------------------------------------------------------- */
 .content-area article {
     margin-bottom: 40px;
@@ -2221,7 +2221,7 @@ label > b {
     padding: 0 5px 0 0;
     line-height: 1;
     display: inline-block;
-    
+
 }
 .content-area .entry-content {
     clear: both;
@@ -2278,7 +2278,7 @@ label > b {
 
 }
 
-/* 34. Blog Widget 
+/* 34. Blog Widget
 ------------------------------------------------------------------------------------- */
 .widget {
     margin-bottom: 50px;

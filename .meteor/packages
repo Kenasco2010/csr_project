@@ -36,3 +36,5 @@ cfs:gridfs
 yogiben:autoform-file
 cfs:ui
 aldeed:delete-button
+less
+kevohagan:sweetalert
