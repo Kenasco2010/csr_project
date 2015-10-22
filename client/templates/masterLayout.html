@@ -2,11 +2,18 @@
   {{> sAlert}}
   {{> navigation}}
   {{> yield}}
-  
+
   <div class="container"></div>
-	
+
 	<div class="footer">
 		{{> footer}}
 	</div>
-  
+
+</template>
+
+<template name="dashboardLayout">
+    <!--<header>-->
+        <!--{{> dashboardNavigation}}-->
+    <!--</header>-->
+    {{> yield}}
 </template>
