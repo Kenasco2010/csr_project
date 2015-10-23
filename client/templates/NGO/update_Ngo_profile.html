@@ -1,29 +1,33 @@
 <template name="updateNgoProfile">
-  <div class="col-lg-4 col-md-3 col-xs-1"></div>
-  <div class="col-lg-4 col-md-6 col-xs-10">
-    {{#autoForm collection="Ngo" id="updateNgoForm" doc=updateNgoProfileDoc type="update"}}
-    <fieldset>
-      <legend>Insert NGO profile</legend>
-      {{> afQuickField name='companyName'}}
-      {{> afQuickField name='focus' options="allowed" noselect=true}}
-      {{> afQuickField name='yearOfEstablishment'}}
-      {{> afQuickField name='mission' rows=6}}
-      {{> afQuickField name='vision' rows=6}}
-      {{> afQuickField name='contact'}}
-      {{> afQuickField name='founder'}}
-      {{> afQuickField name='contactPerson'}}
-      {{> afQuickField name='address'}}
-      {{> afQuickField name='RegistrationNo'}}
-      {{> afQuickField name='bio' rows=6}}
-      {{> afQuickField name='achievements'}}
-      {{> afQuickField name='targetAudience'}}
-      {{> afQuickField name='accreditation'}}
-      <h4>Add your company logo</h4>
-      {{> afQuickField name="picture" }}
-
-    </fieldset>
-    <button type="submit" class="btn btn-primary">Update Profile</button>
-    {{/autoForm}}
-  </div>
-  <div class="col-lg-4 col-md-3 col-xs-1"></div>
+  <h3 style="text-align:center;">Update NGO profile</h3>
+            <section id="main-content" class="main-content pad-60">
+            {{#autoForm collection="Ngo" id="updateNgoForm" doc=updateNgoProfileDoc type="update"}}
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                  <div class="article">
+                    {{> afQuickField name='companyName'}}
+                    {{> afQuickField name='focus' options="allowed" noselect=true}}
+                    {{> afQuickField name='yearOfEstablishment'}}
+                    {{> afQuickField name='mission' rows=6}}
+                    {{> afQuickField name='vision' rows=6}}
+                    {{> afQuickField name='contact'}}
+                    {{> afQuickField name='founder'}}
+                  </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                {{> afQuickField name='contactPerson'}}
+                    {{> afQuickField name='address'}}
+                    {{> afQuickField name='RegistrationNo'}}
+                    {{> afQuickField name='bio' rows=6}}
+                    {{> afQuickField name='achievements'}}
+                    {{> afQuickField name='targetAudience'}}
+                    {{> afQuickField name='accreditation'}}
+                     {{> afQuickField name="picture" }}
+                    <button type="submit" class="btn btn-primary">Update Profile</button>
+                </div>
+              </div>
+            </div>
+            {{/autoForm}}
+            </section>
 </template>

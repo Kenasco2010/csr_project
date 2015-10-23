@@ -1,21 +1,33 @@
 <template name="projectList">
-{{#each listOfProjects}}
-    {{projectName}}<br/>
-    {{scope}}<br/>
-    {{areaOfExecution}}<br/>
-    {{budget}}<br/>
-    {{timeLine}}<br/>
-    {{endGoal}}<br/>
-    {{influencer}}<br/>
-    {{status}}<br/>
-    {{projectBio}}<br/>
-    {{targetAudience}}<br/>
-    {{#with FS.GetFile 'images' picture}}
-        <img class="" src="{{this.url}}" alt="" width="250px" height="200px">
+<section id="causes" class="causes">
+    <div class="container">
+    <div class="row">
 
-    {{/with}}
-    <a href="{{pathFor 'updateProject'}}" id="updateProject" class="btn btn-primary" type="submit">Update Project</a>
-    <a href="{{pathFor 'projectDetails' _id=_id}}" type="submit" class="btn btn-primary">view more</a>
-    {{> quickRemoveButton collection="Projects" _id=this._id onError=onError onSuccess=onSuccess beforeRemove=beforeRemove class="btn btn-danger"}}
-{{/each}}
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="urgent-causes">
+                {{#each listOfProjects}}
+                    <div class="col-sm-4 col-xs-12 children draught isotope-item">
+
+                        <div class="grid">
+                            <figure class="effect-oscar">
+                                {{#with FS.GetFile 'images' picture}}
+                                    <img class="" src="{{this.url}}" alt="ug-1" height="255" width="360">
+                                {{/with}}
+                                <figcaption>
+                                    <a href="causes-style-1.html#" class="btn btn-causes">View details</a>
+                                    <h2>{{projectName}}</h2>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+                {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
 </template>

@@ -13,7 +13,7 @@
         </h3>
         <a href="{{pathFor 'updateCompanyProfile'}}" class="updateCompanyProfile">Update Profile</a>
     {{/with}} -->
-    <section id="main-content" class="main-content pad-60">
+   <!--  <section id="main-content" class="main-content pad-60">
             <div class="container">
             {{#with myCompanyProfile}}
                 <div class="row">
@@ -25,7 +25,7 @@
                             <p class="text-justify">{{countryOfOperation}}</p>
                             <p class="text-justify">{{project}}</p>
                             <p class="text-justify">{{location}}</p>
-                        </div> <!--/.article-->
+                        </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
                         <div id="about-slider" class="about-slider">
@@ -35,9 +35,72 @@
                             {{/with}}
                         </div>
                     </div>
-                </div> <!--/.row-->
+                </div> 
                 <a href="{{pathFor 'updateCompanyProfile'}}" class="updateCompanyProfile">Update Profile</a>
             {{/with}}
+            </div> 
+</section> -->
+<!-- main content start -->
+        <section id="main-content" class="main-content pad-60">
+        {{#with myCompanyProfile}}
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="article">
+                            <h3>Welcome to {{corpCompanyName}}</h3>
+                            <!-- <h4>Founded on {{yearOfEstablishment}} by {{founder}}</h4> -->
+                            <label>Bio<p class="text-justify">{{bio}}</p></label>
+                            <!-- <label>Vision <p class="text-justify">{{vision}}</p></label> -->
+                           
+                        </div> <!--/.article-->
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div id="about-slider" class="about-slider">
+                            <div class="item">
+                               {{#with FS.GetFile 'images' picture}}
+                                    <img class="" src="{{this.url}}" alt="" height="260" width="555">
+                                {{/with}}
+                            </div>
+                        </div>
+                        <div class="container">
+    <div class="sm-title">
+        <h1>More About Us<span class="pull-right label label-default">:)</span></h1>
+    </div>
+    <div class="page-widget-section">
+        <div class="container">
+            <div class="row">
+               <div class="col-sm-6 col-xs-12">
+                   <div class="panel with-nav-tabs panel-default">
+                <div class="panel-heading">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1default" data-toggle="tab">Vision</a></li>
+                            <li><a href="#tab2default" data-toggle="tab">Vision</a></li>
+                            <!-- <li><a href="#tab3default" data-toggle="tab">Accreditation</a></li>
+                            <li><a href="#tab4default" data-toggle="tab">Registration</a></li>
+                            <li><a href="#tab5default" data-toggle="tab">Contact</a></li> -->
+                        </ul>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1default">{{mission}}</div>
+                        <div class="tab-pane fade" id="tab2default">{{vision}}</div>
+                        <!-- <div class="tab-pane fade" id="tab3default">{{accreditation}}</div>
+                        <div class="tab-pane fade" id="tab4default">{{RegistrationNo}}</div>
+                        <div class="tab-pane fade" id="tab5default">{{contactPerson}}</div> -->
+                    </div>
+                </div>
+            </div>
+               </div> 
+            </div>
+            
+        </div>
+    </div>
+</div>
+                    </div>
+                </div> <!--/.row-->
+                <a href="{{pathFor 'updateCompanyProfile'}}" class="updateCompanyProfile btn btn-primary">Update Profile</a>
             </div> <!--/.container-->
-</section>
+        {{/with}}
+        </section>
+
 </template>

@@ -21,7 +21,4 @@ AutoForm.hooks({
             console.log(error);
         },
     },
-
-
-
 });

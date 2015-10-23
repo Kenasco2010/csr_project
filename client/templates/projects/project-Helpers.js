@@ -1,6 +1,6 @@
 Template.projectList.helpers({
     listOfProjects: function () {
-        return Projects.find({projectOwner: Meteor.userId()}).fetch()
+        return Projects.find({})
     }
 })
 Template.updateProject.helpers({

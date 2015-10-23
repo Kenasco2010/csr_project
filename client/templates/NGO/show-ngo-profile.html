@@ -1,6 +1,7 @@
 <template name="showNGOProfile">
-{{#with myNGOProfile}}
+<!-- {{#with myNGOProfile}}
     <h3>
+    {{companyName}}<br/>
     {{focus}} <br/>
     {{yearOfEstablishment}}<br/>
     {{mission}}<br/>
@@ -21,5 +22,124 @@
     </h3>
     <a href="{{pathFor 'updateNgoProfile'}}" class="updateNgoProfile">Update Profile</a>
     <a data-original-title="Remove this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-danger" id="deleteNgoAccount"><i class="glyphicon glyphicon-remove"></i></a>
+{{/with}} -->
+
+<!-- <div class="container">
+{{#with myNGOProfile}}
+        <section style="padding-bottom: 50px; padding-top: 50px;">
+            <div class="row">
+                <div class="col-md-4">
+                    {{#with FS.GetFile 'images' picture}}
+                        <img src="{{this.url}}" alt="" class="img-rounded img-responsive">
+                    {{/with}}
+                    <br />
+                    <br />
+                    <label><p>{{companyName}}</p></label><br/>
+                    <label>Focus: <p><li>{{focus}}</li></p></label><br>
+                   
+                    <label>Year Of Establishment:<p> &nbsp; </p></label><br/>
+                    <label>Contact:<p> &nbsp; {{contact}}</p></label><br/>
+                    <label>Founder:<p> &nbsp; {{founder}}</p></label><br/>
+                    <label>Contact Person:<p> &nbsp; {{contactPerson}}</p></label><br/>
+                    
+                   
+                </div>
+                <div class="col-md-8">
+                    <div class="alert alert-info">
+                        <h2>Mission</h2>
+                        
+                        <p>{{mission}}</p>
+                    </div>
+                     <div class="alert alert-info">
+                        <h2>Vision</h2>
+                        
+                        <p>{{vision}}</p>
+                    </div>
+                     <div class="alert alert-info">
+                        <h2>Bio</h2>
+                        
+                        <p>{{bio}}</p>
+                    </div>
+                    <div class="form-group col-md-8">
+                        <h3>Change YOur Details</h3>
+                        <br />
+                        
+                        <label><p>Achievements: &nbsp; {{achievements}}</p></label><br>
+                        <label><p>Target Audience: &nbsp; {{targetAudience}}</p></label><br>
+                        <label><p>Accreditation: &nbsp; {{accreditation}}</p></label><br>
+                        <label><p>Address: &nbsp; {{address}}</p></label><br/>
+                        <label><p>Registration Number: &nbsp; {{RegistrationNo}}</p></label>
+                        <br>
+                        <a href="{{pathFor 'updateNgoProfile'}}" class="updateNgoProfile btn btn-primary">Update Profile</a>
+                    <br /><br/>
+                    </div>
+                </div>
+            </div>
+        </section>
+     
 {{/with}}
+    </div> -->
+    <!-- main content start -->
+        <section id="main-content" class="main-content pad-60">
+        {{#with myNGOProfile}}
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="article">
+                            <h3>Welcome to {{companyName}}</h3>
+                            <h4>Founded on {{yearOfEstablishment}} by {{founder}}</h4>
+                            <label>Mission<p class="text-justify">{{mission}}</p></label>
+                            <label>Vision <p class="text-justify">{{vision}}</p></label>
+                           
+                        </div> <!--/.article-->
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div id="about-slider" class="about-slider">
+                            <div class="item">
+                               {{#with FS.GetFile 'images' picture}}
+                                    <img class="" src="{{this.url}}" alt="" height="260" width="555">
+                                {{/with}}
+                            </div>
+                        </div>
+                        <div class="container">
+    <div class="sm-title">
+        <h1>More About Us<span class="pull-right label label-default">:)</span></h1>
+    </div>
+    <div class="page-widget-section">
+        <div class="container">
+            <div class="row">
+               <div class="col-sm-6 col-xs-12">
+                   <div class="panel with-nav-tabs panel-default">
+                <div class="panel-heading">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1default" data-toggle="tab">Bio</a></li>
+                            <li><a href="#tab2default" data-toggle="tab">Achievements</a></li>
+                            <li><a href="#tab3default" data-toggle="tab">Accreditation</a></li>
+                            <li><a href="#tab4default" data-toggle="tab">Registration</a></li>
+                            <li><a href="#tab5default" data-toggle="tab">Contact</a></li>
+                        </ul>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1default">{{bio}}</div>
+                        <div class="tab-pane fade" id="tab2default">{{achievements}}</div>
+                        <div class="tab-pane fade" id="tab3default">{{accreditation}}</div>
+                        <div class="tab-pane fade" id="tab4default">{{RegistrationNo}}</div>
+                        <div class="tab-pane fade" id="tab5default">{{contactPerson}}</div>
+                    </div>
+                </div>
+            </div>
+               </div> 
+            </div>
+            
+        </div>
+    </div>
+</div>
+                    </div>
+                </div> <!--/.row-->
+                <a href="{{pathFor 'updateNgoProfile'}}" class="updateNgoProfile btn btn-primary">Update Profile</a>
+            </div> <!--/.container-->
+        {{/with}}
+        </section>
+        <!-- main content end -->
 </template>
