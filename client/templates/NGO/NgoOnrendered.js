@@ -1,0 +1,3 @@
+Template.formWizard.rendered = function () {
+
+}

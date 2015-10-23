@@ -3,3 +3,5 @@ Template.updateNgoProfile.helpers({
     return Ngo.findOne(Session.get("updateNgoProfile"));
   }
 });
+
+

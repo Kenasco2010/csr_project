@@ -11,7 +11,7 @@
     {{projectBio}}<br/>
     {{targetAudience}}<br/>
     {{#with FS.GetFile 'images' picture}}
-        <img class="" src="{{this.url}}" alt="" >
+        <img class="" src="{{this.url}}" alt="" width="250px" height="200px">
 
     {{/with}}
     <a href="{{pathFor 'updateProject'}}" id="updateProject" class="btn btn-primary" type="submit">Update Project</a>
