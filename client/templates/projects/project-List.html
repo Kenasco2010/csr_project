@@ -1,33 +1,59 @@
 <template name="projectList">
-<section id="causes" class="causes">
-    <div class="container">
-    <div class="row">
+    <section class="main-content-wrapper">
 
-        <div class="col-xs-12">
-            <div class="row">
-                <div class="urgent-causes">
-                {{#each listOfProjects}}
-                    <div class="col-sm-4 col-xs-12 children draught isotope-item">
-
-                        <div class="grid">
-                            <figure class="effect-oscar">
-                                {{#with FS.GetFile 'images' picture}}
-                                    <img class="" src="{{this.url}}" alt="ug-1" height="255" width="360">
-                                {{/with}}
-                                <figcaption>
-                                    <a href="causes-style-1.html#" class="btn btn-causes">View details</a>
-                                    <h2>{{projectName}}</h2>
-                                </figcaption>
-                            </figure>
-                        </div>
-
-                    </div>
-                {{/each}}
-                </div>
-            </div>
+        <div class="pageheader">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="toggle-navigation toggle-left">
+                    <button class="sidebar-toggle" id="toggle-left">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </li>
+            </ul>
+            <h1>Dashboard</h1>
+            <p class="description">Welcome to NEUBOARD Responsive Admin Theme</p>
+            <div class="breadcrumb-wrapper hidden-xs">
+                <span class="label">You are here:</span>
+                <ol class="breadcrumb">
+                    <li class="active">Dashboard</li>
+                </ol>
+            </div>`
         </div>
-    </div>
-    </div>
-</section>
+        <section id="main-content" class="animated fadeInUp">
 
+            <section id="causes" class="causes">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="urgent-causes">
+                                    {{#each listOfProjects}}
+                                        <div class="col-sm-4 col-xs-12 children draught isotope-item">
+
+                                            <div class="grid">
+                                                <figure class="effect-oscar">
+                                                    {{#with FS.GetFile 'images' picture}}
+                                                        <img class="" src="{{this.url}}" alt="ug-1" height="255" width="360">
+                                                    {{/with}}
+                                                    <figcaption>
+                                                        <a href="causes-style-1.html#" class="btn btn-causes">View details</a>
+                                                        <h2>{{projectName}}</h2>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+
+                                        </div>
+                                    {{/each}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section> -->
+        <!--</section>-->
+
+        <!--main content end-->
+    </section>
 </template>

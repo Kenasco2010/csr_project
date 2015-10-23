@@ -107,7 +107,7 @@ var app = function() {
     };
 
     //var profileToggle = function() {
-        Template.dashboard.events({
+        Template.dashboardLayout.events({
             'click #toggle-profile': function() {
                 $('.sidebar-profile').slideToggle();
             },

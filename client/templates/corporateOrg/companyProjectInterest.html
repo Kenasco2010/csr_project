@@ -1,3 +1,32 @@
 <template name="companyProjectInterest">
-    <h3>{{companyProjectsInterest}}</h3>
+    <section id="causes" class="causes">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="urgent-causes">
+                            {{#each companyProjectsInterest}}
+                                <div class="col-sm-4 col-xs-12 children draught isotope-item">
+
+                                    <div class="grid">
+                                        <figure class="effect-oscar">
+                                            {{#with FS.GetFile 'images' picture}}
+                                                <img class="" src="{{this.url}}" alt="ug-1" height="255" width="360">
+                                            {{/with}}
+                                            <figcaption>
+                                                <a href="causes-style-1.html#" class="btn btn-causes">View details</a>
+                                                <h2>{{projectName}}</h2>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>

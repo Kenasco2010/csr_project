@@ -15,10 +15,20 @@ Template.navigation.helpers({
 Template.companyProjectInterest.helpers({
     companyProjectsInterest: function () {
        var loggedInCompany = Meteor.user() && Meteor.user().profile.companyType === "corporateOrganization";
-        var projectScope = Projects.find({projectOwner: Meteor.userId()}).scope;
-        var companyProjectScope = CorpOrg.find({companyOwner: Meteor.userId()}).project;
-        var hasData = _.contains(companyProjectScope, projectScope);
-        if (hasData) {
+        var companyProjectScope = CorpOrg.findOne({companyOwner: Meteor.userId()}).project;
+        if (companyProjectScope == undefined) {
+            return null
+        }
+        console.log(companyProjectScope);
+        var projectScope = Projects.find({scope: {$in: companyProjectScope}}).fetch();
+        return projectScope;
+
+        //console.log("hi");
+        //console.log(projectScope);
+       // var hasData = _.contains(companyProjectScope.project);
+        //console.log(hasData);
+
+        if (projectScope) {
             console.log("true");
             return "Company interest Project List"
         } else {
