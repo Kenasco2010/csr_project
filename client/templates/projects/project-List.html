@@ -1,15 +1,14 @@
 <template name="projectList">
-
 <section id="causes" class="causes">
     <div class="container">
     <div class="row">
-    
+
         <div class="col-xs-12">
             <div class="row">
                 <div class="urgent-causes">
                 {{#each listOfProjects}}
                     <div class="col-sm-4 col-xs-12 children draught isotope-item">
-                    
+
                         <div class="grid">
                             <figure class="effect-oscar">
                                 {{#with FS.GetFile 'images' picture}}
@@ -22,7 +21,7 @@
                             </figure>
                         </div>
 
-                    </div> 
+                    </div>
                 {{/each}}
                 </div>
             </div>
@@ -30,11 +29,5 @@
     </div>
     </div>
 </section>
-
-   <!--  {{/with}}
-    <a href="{{pathFor 'updateProject'}}" id="updateProject" class="btn btn-primary" type="submit">Update Project</a>
-    <a href="{{pathFor 'projectDetails' _id=_id}}" type="submit" class="btn btn-primary">view more</a>
-    {{> quickRemoveButton collection="Projects" _id=this._id onError=onError onSuccess=onSuccess beforeRemove=beforeRemove class="btn btn-danger"}} -->
-
 
 </template>
