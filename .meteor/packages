@@ -38,3 +38,6 @@ aldeed:delete-button
 less
 kevohagan:sweetalert
 jquery
+rajit:bootstrap3-datepicker
+aldeed:autoform-bs-datepicker
+momentjs:moment

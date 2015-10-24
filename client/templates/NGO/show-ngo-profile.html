@@ -36,34 +36,34 @@
                     <br />
                     <label><p>{{companyName}}</p></label><br/>
                     <label>Focus: <p><li>{{focus}}</li></p></label><br>
-                   
+
                     <label>Year Of Establishment:<p> &nbsp; </p></label><br/>
                     <label>Contact:<p> &nbsp; {{contact}}</p></label><br/>
                     <label>Founder:<p> &nbsp; {{founder}}</p></label><br/>
                     <label>Contact Person:<p> &nbsp; {{contactPerson}}</p></label><br/>
-                    
-                   
+
+
                 </div>
                 <div class="col-md-8">
                     <div class="alert alert-info">
                         <h2>Mission</h2>
-                        
+
                         <p>{{mission}}</p>
                     </div>
                      <div class="alert alert-info">
                         <h2>Vision</h2>
-                        
+
                         <p>{{vision}}</p>
                     </div>
                      <div class="alert alert-info">
                         <h2>Bio</h2>
-                        
+
                         <p>{{bio}}</p>
                     </div>
                     <div class="form-group col-md-8">
                         <h3>Change YOur Details</h3>
                         <br />
-                        
+
                         <label><p>Achievements: &nbsp; {{achievements}}</p></label><br>
                         <label><p>Target Audience: &nbsp; {{targetAudience}}</p></label><br>
                         <label><p>Accreditation: &nbsp; {{accreditation}}</p></label><br>
@@ -76,7 +76,7 @@
                 </div>
             </div>
         </section>
-     
+
 {{/with}}
     </div> -->
     <!-- main content start -->
@@ -87,10 +87,10 @@
                     <div class="col-sm-6 col-xs-12">
                         <div class="article">
                             <h3>Welcome to {{companyName}}</h3>
-                            <h4>Founded on {{yearOfEstablishment}} by {{founder}}</h4>
+                            <h4>Founded on {{formatDate yearOfEstablishment}} by {{founder}}</h4>
                             <label>Mission<p class="text-justify">{{mission}}</p></label>
                             <label>Vision <p class="text-justify">{{vision}}</p></label>
-                           
+
                         </div> <!--/.article-->
                     </div>
                     <div class="col-sm-6 col-xs-12">
@@ -129,9 +129,9 @@
                     </div>
                 </div>
             </div>
-               </div> 
+               </div>
             </div>
-            
+
         </div>
     </div>
 </div>

@@ -44,3 +44,11 @@
   line-height: 1.428571429;
   border-radius: 15px;
 }
+
+.step2btn{
+    background-color: #f7505a;
+    color: #ffffff;
+}
+.step1btn {
+    background-color: grey;
+}

@@ -3,5 +3,17 @@ Template.updateNgoProfile.helpers({
     return Ngo.findOne(Session.get("updateNgoProfile"));
   }
 });
+Template.ngoProfile3.helpers({
+  updateNgoProfileDoc: function () {
+    return Ngo.findOne(Session.get("updateNgoProfile"));
+  }
+});
+Template.ngoProfile2.helpers({
+  updateNgoProfileDoc: function () {
+    return Ngo.findOne(Session.get("updateNgoProfile"));
+  }
+});
 
-
+Template.registerHelper('formatDate', function(date) {
+  return moment(date).format('DD-MM-YYYY');
+});

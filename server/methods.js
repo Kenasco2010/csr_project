@@ -5,10 +5,8 @@ Meteor.methods({
         }
         // console.log(userId)
     },
-    //updateNGO: function(projectId, companyid, companyName,companyType) {
-    //    //console.log(agentId);
-    //    //console.log(playerId);
-    //    Projects.update(projectId ,{$addToSet:{companyId:companyid, companyName:companyName, companyType:companyType}}, function(err, id){
+    //updateNgoProfile: function(ngoId, doc) {
+    //    Ngo.update({_id: ngoId}, doc, function(err, success){
     //    });
     //},
 });
