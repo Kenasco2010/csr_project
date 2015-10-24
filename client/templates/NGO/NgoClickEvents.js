@@ -22,7 +22,7 @@ Template.ngoProfile3.events({
 });
 Template.ngoProfile2.rendered = function (){
   var ngoHasData = Ngo.findOne({ngoCompanyOwner: Meteor.userId()});
-  console.log(ngoHasData)
+  console.log(ngoHasData);
   if (ngoHasData){
     Session.set("updateNgoProfile", ngoHasData._id)
 
