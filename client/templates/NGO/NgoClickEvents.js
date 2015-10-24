@@ -15,3 +15,24 @@ Template.showNGOProfile.events({
     });
   }
 })
+
+Template.ngoProfile3.events({
+  'click .updateNgoProfile': function () {
+    Session.set("updateNgoProfile", this._id)
+  },
+});
+Template.ngoProfile2.rendered = function (){
+  var ngoHasData = Ngo.findOne({ngoCompanyOwner: Meteor.userId()});
+  console.log(ngoHasData)
+  if (ngoHasData){
+    Session.set("updateNgoProfile", ngoHasData._id)
+
+  }
+};
+//Template.ngoProfile2.events({
+//  'click .updateNgoProfileBtn': function () {
+//    ngoId = Ngo.findOne({ngoCompanyOwner: Meteor.userId()})._id;
+//    Meteor.call("updateNgoProfile",)
+//  }
+//})
+
