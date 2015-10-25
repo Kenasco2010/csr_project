@@ -1,4 +1,23 @@
 <template name="updateCompanyProfile">
+<section class="main-content-wrapper">
+
+        <div class="pageheader">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="toggle-navigation toggle-left">
+                    <button class="sidebar-toggle" id="toggle-left">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </li>
+            </ul>
+            <h1>Dashboard</h1>
+            <p class="description">Welcome to NEUBOARD Responsive Admin Theme</p>
+            <div class="breadcrumb-wrapper hidden-xs">
+                <span class="label">You are here:</span>
+                <ol class="breadcrumb">
+                    <li class="active">Dashboard</li>
+                </ol>
+            </div>
+        </div>
 	<h3 style="text-align:center;">Update Company profile</h3>
             <section id="main-content" class="main-content pad-60">
             {{#autoForm collection="CorpOrg" id="updateCompanyForm" doc=updateCompanyDoc type="update"}}
@@ -9,10 +28,10 @@
             				{{> afQuickField name='corpCompanyName'}}
             				{{> afQuickField name='bio' rows=6}}
                     		{{> afQuickField name='countryOfOperation' row=3}}
-                            {{> afQuickField name='focus' options="allowed" noselect=true}}
+
             			</div>
             		</div>
-            		<div class="col-sm-6 col-xs-12">
+            		<div class="col-sm-4 col-xs-8">
             		{{> afQuickField name='project' row=5}}
                     {{> afQuickField name='location' row=3}}
                     <h4>Add your company logo</h4>
@@ -23,4 +42,5 @@
             </div>
             {{/autoForm}}
             </section>
+    </section>
 </template>

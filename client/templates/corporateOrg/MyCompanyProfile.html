@@ -35,23 +35,43 @@
                             {{/with}}
                         </div>
                     </div>
-                </div> 
+                </div>
                 <a href="{{pathFor 'updateCompanyProfile'}}" class="updateCompanyProfile">Update Profile</a>
             {{/with}}
-            </div> 
+            </div>
 </section> -->
 <!-- main content start -->
+<section class="main-content-wrapper">
+
+        <div class="pageheader">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="toggle-navigation toggle-left">
+                    <button class="sidebar-toggle" id="toggle-left">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </li>
+            </ul>
+            <h1>Dashboard</h1>
+            <p class="description">Welcome to NEUBOARD Responsive Admin Theme</p>
+            <div class="breadcrumb-wrapper hidden-xs">
+                <span class="label">You are here:</span>
+                <ol class="breadcrumb">
+                    <li class="active">Dashboard</li>
+                </ol>
+            </div>
+        </div>
+
         <section id="main-content" class="main-content pad-60">
         {{#with myCompanyProfile}}
-            <div class="container">
-                <div class="row">
+            <!-- <div class="container">
+                <div class="row"> -->
                     <div class="col-sm-6 col-xs-12">
                         <div class="article">
                             <h3>Welcome to {{corpCompanyName}}</h3>
-                            <!-- <h4>Founded on {{yearOfEstablishment}} by {{founder}}</h4> -->
+                            <!-- <h4>Founded on {{formatDate yearOfEstablishment}} by {{founder}}</h4> -->
                             <label>Bio<p class="text-justify">{{bio}}</p></label>
                             <!-- <label>Vision <p class="text-justify">{{vision}}</p></label> -->
-                           
+
                         </div> <!--/.article-->
                     </div>
                     <div class="col-sm-6 col-xs-12">
@@ -67,8 +87,8 @@
         <h1>More About Us<span class="pull-right label label-default">:)</span></h1>
     </div>
     <div class="page-widget-section">
-        <div class="container">
-            <div class="row">
+        <!-- <div class="container"> -->
+            <!-- <div class="row"> -->
                <div class="col-sm-6 col-xs-12">
                    <div class="panel with-nav-tabs panel-default">
                 <div class="panel-heading">
@@ -90,17 +110,18 @@
                     </div>
                 </div>
             </div>
-               </div> 
-            </div>
-            
+               <!-- </div>  -->
+            <!-- </div> -->
+
         </div>
     </div>
 </div>
                     </div>
-                </div> <!--/.row-->
+                <!-- </div> /.row -->
                 <a href="{{pathFor 'updateCompanyProfile'}}" class="updateCompanyProfile btn btn-primary">Update Profile</a>
-            </div> <!--/.container-->
+            <!-- </div> /.container -->
         {{/with}}
+        </section>
         </section>
 
 </template>

@@ -1,8 +1,8 @@
 <template name="createCompanyProfile">
 
  <h3 style="text-align:center;">Insert Company profile</h3>
-            <section id="main-content" class="main-content pad-60">
-{{#autoForm collection="CorpOrg" id="insertCompanyForm" type="insert"}}
+        <section id="main-content" class="main-content pad-60">
+			{{#autoForm collection="CorpOrg" id="insertCompanyForm" type="insert"}}
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-xs-8 col-md-8 col-sm-offset-2 col-md-offset-3">
@@ -12,7 +12,7 @@
 					{{> afQuickField name='corpCompanyName'}}
                     {{> afQuickField name='bio' rows=6}}
                     {{> afQuickField name='countryOfOperation'}}
-                    {{> afQuickField name='focus' options="allowed" noselect=true}}
+                    <!-- {{> afQuickField name='focus' options="allowed" noselect=true}} -->
                     {{> afQuickField name='location'}}
                     <h4>Add your company logo</h4>
                     {{> afQuickField name="picture" }}
@@ -24,7 +24,7 @@
 				</div> <!--/.row-->
 			 <!--/.container-->
 
-{{/autoForm}}
+			{{/autoForm}}
 		</section>
-
 </template>
+

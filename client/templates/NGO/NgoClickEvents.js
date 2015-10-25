@@ -14,7 +14,8 @@ Template.showNGOProfile.events({
       }
     });
   }
-});
+})
+
 Template.ngoProfile3.events({
   'click .updateNgoProfile': function () {
     Session.set("updateNgoProfile", this._id)
@@ -34,3 +35,4 @@ Template.ngoProfile2.rendered = function (){
 //    Meteor.call("updateNgoProfile",)
 //  }
 //})
+

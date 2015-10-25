@@ -23,8 +23,8 @@ Template.companyProjectInterest.helpers({
         var projectScope = Projects.find({scope: {$in: companyProjectScope}}).fetch();
         return projectScope;
 
-        //console.log("hi");
-        //console.log(projectScope);
+        console.log("hi");
+        console.log(projectScope);
        // var hasData = _.contains(companyProjectScope.project);
         //console.log(hasData);
 
