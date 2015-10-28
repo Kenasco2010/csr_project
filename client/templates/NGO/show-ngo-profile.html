@@ -10,76 +10,82 @@
                     </button>
                 </li>
             </ul>
-            <h1>Dashboard</h1>
-            <p class="description">Welcome to NEUBOARD Responsive Admin Theme</p>
-            <div class="breadcrumb-wrapper hidden-xs">
-                <span class="label">You are here:</span>
-                <ol class="breadcrumb">
-                    <li class="active">Dashboard</li>
-                </ol>
-            </div>
+            
         </div>
-        <section id="main-content" class="main-content pad-60">
+        <section id="main-content " class="main-content pad-60">
             {{#with myNGOProfile}}
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-xs-10">
-                        <div class="article">
-                            <h3>Welcome to {{companyName}}</h3>
-                            <h4>Founded on {{formatDate yearOfEstablishment}} by {{founder}}</h4>
-                            <label>Mission<p class="text-justify">{{mission}}</p></label>
-                            <label>Vision <p class="text-justify">{{vision}}</p></label>
+                        
+                        <h2>Welcome to {{companyName}}</h2><p></p>
+                        <h3>Founded on {{formatDate yearOfEstablishment}} by {{founder}}</h3><p></p><p></p>
+                        <div class="panel panel-default chat-widget card">
+                         <div class="panel-body">
+                            <label>Bio <p class="text-justify">{{bio}}</p></label>
+                        </div></div>
+                        <div class="panel panel-default chat-widget card">
+                         <div class="panel-body">
+                            <label>Mission<p class="text-justify">{{mission}}</p></label></div></div>
+                            <div class="panel panel-default chat-widget card">
+                             <div class="panel-body">
+                                <label>Vision <p class="text-justify">{{vision}}</p></label></div></div>
+                                
 
-                        </div> <!--/.article-->
-                    </div>
-                    <div class="col-sm-8 col-xs-12">
-                        <div id="about-slider" class="about-slider">
-                            <div class="item">
-                             {{#with FS.GetFile 'images' picture}}
-                             <img class="" src="{{this.url}}" alt="" height="260" width="500">
-                             {{/with}}
-                         </div>
-                     </div>
-                     <div class="container">
-                        <div class="sm-title">
-                            <h1>More About Us<span class="pull-right label label-default">:)</span></h1>
-                        </div>
-                        <div class="page-widget-section">
-                            <div class="container">
-                                <div class="row">
-                                <div class="col-sm-8 col-xs-12">
-                                     <div class="panel with-nav-tabs panel-default">
-                                        <div class="panel-heading">
-                                            <ul class="nav nav-tabs">
-                                                <li class="active"><a href="#tab1default" data-toggle="tab">Bio</a></li>
-                                                <li><a href="#tab2default" data-toggle="tab">Achievements</a></li>
-                                                <li><a href="#tab3default" data-toggle="tab">Accreditation</a></li>
-                                                <li><a href="#tab4default" data-toggle="tab">Registration</a></li>
-                                                <li><a href="#tab5default" data-toggle="tab">Contact</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="panel-body">
-                                            <div class="tab-content">
-                                                <div class="tab-pane fade in active" id="tab1default">{{bio}}</div>
-                                                <div class="tab-pane fade" id="tab2default">{{achievements}}</div>
-                                                <div class="tab-pane fade" id="tab3default">{{accreditation}}</div>
-                                                <div class="tab-pane fade" id="tab4default">{{RegistrationNo}}</div>
-                                                <div class="tab-pane fade" id="tab5default">{{contactPerson}}</div>
-                                            </div>
-                                        </div>
+                                
+                            </div>
+                            <div class="col-sm-8 col-xs-12">
+                                <div id="about-slider" class="about-slider">
+                                    <div class="container">
+                                        <div class="col-md-12 col-md-offset-0">
+                                            {{#with FS.GetFile 'images' picture}}
+                                            <img class="" src="{{this.url}}" alt="" height="260" width="500">
+                                            {{/with}}
+                                        </div> 
                                     </div>
                                 </div>
-                            </div>
+                                <p></p>
+                                <div class="container">
+                                    <div class="sm-title">
+                                        <h1>More About Us<span class="pull-right label label-default">:)</span></h1>
+                                    </div>
+                                    <div class="page-widget-section">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-xs-10">
+                                                   <div class="panel with-nav-tabs panel-default">
+                                                    <div class="panel-heading">
+                                                        <ul class="nav nav-tabs">
+                                                            
+                                                            <li><a href="#tab2default" data-toggle="tab">Achievements</a></li>
+                                                            <li><a href="#tab3default" data-toggle="tab">Accreditation</a></li>
+                                                            <li><a href="#tab4default" data-toggle="tab">Registration</a></li>
+                                                            <li><a href="#tab5default" data-toggle="tab">Contact</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="panel-body">
+                                                        <div class="tab-content">
+                                                           
+                                                            <div class="tab-pane fade" id="tab2default">{{achievements}}</div>
+                                                            <div class="tab-pane fade" id="tab3default">{{accreditation}}</div>
+                                                            <div class="tab-pane fade" id="tab4default">{{RegistrationNo}}</div>
+                                                            <div class="tab-pane fade" id="tab5default">{{contactPerson}}</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
+                                    </div>
+                                </div>
+                                <a href="{{pathFor 'updateNgoProfile'}}" class="updateNgoProfile btn btn-primary">Update Profile</a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!--/.row-->
-        <a href="{{pathFor 'updateNgoProfile'}}" class="updateNgoProfile btn btn-primary">Update Profile</a>
-    </div> <!--/.container-->
-    {{/with}}
-</section>
-<!-- main content end -->
-</section>
-</template>
+                    </div> <!--/.row-->
+                    
+                </div> <!--/.container-->
+                {{/with}}
+            </section>
+            <!-- main content end -->
+        </section>
+    </template>

@@ -136,7 +136,7 @@
                    </div>
                </div>
            </div>
-           <form role="form">
+           <!-- <form role="form">
 
                <div class="row setup-content " id="step-3">
                <div class="col-xs-12">
@@ -144,10 +144,10 @@
                <h3> Step 3</h3>
                <h3>Please verify your information before saving</h3>
                    {{#with myNGOProfile}}
-                   <h4>
-                       {{companyName}}<br/>
-                       {{focus}} <br/>
-                       {{formatDate yearOfEstablishment}}<br/>
+                   <h4 style="text-align:center">
+                      NGO NAME :&nbsp;<strong>{{companyName}}</strong><br>
+                       FOCUS :&nbsp;<strong>{{focus}}</strong> <br/>
+                       DATE OF ESTABLISHMENT :&nbsp;<strong>{{formatDate yearOfEstablishment}}</strong><br/>
                        {{mission}}<br/>
                        {{vision}}<br/>
                        {{contact}}<br/>
@@ -167,7 +167,111 @@
                </div>
                </div>
            </form>
-           <button type="submit" class="btn btn-primary">Jump to Dashboard</button>
+           <button type="submit" class="btn btn-primary">Jump to Dashboard</button> -->
+           <div class="container">
+            <div class="row">
+              <div class="col-md-5  toppad  pull-right col-md-offset-3 ">
+
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-0 col-md-offset-8 col-lg-offset-2 toppad" >
+               
+                
+               
+                <div class="panel panel-info">
+
+                  <div class="panel-heading">
+
+                    <h3 class="panel-title">Please verify your information before saving</h3>
+                  </div>
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-md-3 col-lg-3 " align="center"> 
+                        {{#with FS.GetFile 'images' picture}}
+                        <img class="" src="{{this.url}}" alt="" height="260" width="500">
+                        {{/with}} 
+                      </div>
+
+                      <div class=" col-md-9 col-lg-9 "> 
+                        {{#with myNGOProfile}}
+                        <table class="table table-user-information">
+                          <tbody>
+                            <tr>
+                              <td>NGO NAME</td>
+                              <td>{{companyName}}</td>
+                            </tr>
+                            <tr>
+                              <td>FOUNDER</td>
+                              <td>{{founder}}</td>
+                            </tr>
+                            <tr>
+                              <td>FOCUS:</td>
+                              <td>{{focus}}</td>
+                            </tr>
+                            <tr>
+                              <td>DATE OF ESTABLISHMENT</td>
+                              <td>{{formatDate yearOfEstablishment}}</td>
+                            </tr>
+                            <tr>
+                              <td>MISSION</td>
+                              <td>{{mission}}</td>
+                            </tr>
+                            <tr>
+                              <td>VISION</td>
+                              <td>{{vision}}</td>
+                            </tr>
+                            <tr>
+                              <td>CONTACT</td>
+                              <td>{{contact}}</td>
+                            </tr>
+                            <tr>
+                              <td>CONTACT PERSON</td>
+                              <td>{{contactPerson}}</td>
+                            </tr>
+                            <tr>
+                              <td>ADDRESS</td>
+                              <td>{{address}}</td>
+                            </tr>
+                            <tr>
+                              <td>REGISTRATION NUMBER</td>
+                              <td>{{RegistrationNo}}</td>
+                            </tr>
+                            <tr>
+                              <td>BIO</td>
+                              <td>{{bio}}</td>
+                            </tr>
+                            <tr>
+                              <td>ACHIEVEMENTS</td>
+                              <td>{{achievements}}</td>
+                            </tr>
+                            <tr>
+                              <td>TARGET AUDIENCE</td>
+                              <td>{{targetAudience}}</td>
+                            </tr>
+                            <tr>
+                              <td>ACCREDITATION</td>
+                              <td>{{accreditation}}</td>
+                            </tr>
+                            
+                          </tbody>
+                        </table>
+                        {{/with}}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel-footer">
+                    <a href="{{pathFor 'updateNgoProfile'}}" data-original-title="Edit this user" data-toggle="tooltip" type="button" class="btn btn-primary"><i class="glyphicon glyphicon-edit"></i>Update Info</a>
+                    <span class="pull-right">
+                      
+                     <!--  <a data-original-title="Remove this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-danger"><i class="glyphicon glyphicons-left-right"></i>Go to Dashboard</a> -->
+                     <button type="submit" class="btn btn-primary">Jump to Dashboard</button>
+                   </span>
+                 </div>
+               </div>
+               
+             </div>
+           </div>
+         </div>
+
 
    </div>
 </template>
