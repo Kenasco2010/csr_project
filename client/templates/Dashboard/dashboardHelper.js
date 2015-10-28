@@ -6,6 +6,9 @@ Template.dashboardLayout.helpers({
 	},
 	'ngoProfile': function(){
 		return Ngo.findOne({ngoCompanyOwner: Meteor.userId()})
+	},
+	'companyProfile': function(){
+		return CorpOrg.findOne({companyOwner: Meteor.userId()})
 	}
 });
 
