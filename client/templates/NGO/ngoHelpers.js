@@ -17,3 +17,12 @@ Template.ngoProfile2.helpers({
 Template.registerHelper('formatDate', function(date) {
   return moment(date).format('DD-MM-YYYY');
 });
+
+Template.corporateOrgProjectsOnly.helpers({
+  corporateProjectOnly: function(){
+var companyType = "corporateOrganization"
+  return Projects.find({companyType: companyType}).fetch();
+    console.log("hey");
+    return companytype;
+  }
+});

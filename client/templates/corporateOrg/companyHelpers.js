@@ -38,11 +38,11 @@ Template.companyProjectInterest.helpers({
     }
 });
 
-Template.corporateOrgProjectsOnly.helpers({
-  'corporateProjectOnly': function(){
-var companyType = Meteor.user().profile.companyType
-  return Projects.find({companyType: companyType}).fetch();
-    console.log(companytype);
-    return companytype;
-  }
-});
+// Template.corporateOrgProjectsOnly.helpers({
+//   corporateProjectOnly: function(){
+// var companyType = Meteor.user().profile.companyType
+//   return Projects.find({companyType: companyType}).fetch();
+//     console.log(companytype);
+//     return companytype;
+//   }
+// });
