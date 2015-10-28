@@ -1,3 +1,50 @@
 <template name="corporateOrgProjectsOnly">
+    <section class="main-content-wrapper">
 
+        <div class="pageheader">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="toggle-navigation toggle-left">
+                    <button class="sidebar-toggle" id="toggle-left">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </li>
+            </ul>
+            <h1>Dashboard</h1>
+            <p class="description">List of Only corporate org projects</p>
+            <div class="breadcrumb-wrapper hidden-xs">
+                <span class="label">You are here:</span>
+                <ol class="breadcrumb">
+                    <li class="active">Dashboard</li>
+                </ol>
+            </div>
+        </div>
+
+        <section id="main-content" class="animated fadeInUp">
+            <div class="row">
+                {{#each corpOrgProjOnly}}
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="urgent-causes">
+
+                            <div class="children draught isotope-item">
+
+                                <div class="grid">
+                                    <figure class="effect-oscar">
+                                        {{#with FS.GetFile 'images' picture}}
+                                            <img class="" src="{{this.url}}" alt="ug-1" height="211" width="360">
+                                        {{/with}}
+                                        <figcaption>
+                                            <a href="{{pathFor 'companyProject'}}" class="btn btn-causes">View details</a>
+                                            <h2>{{projectName}}</h2>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </section>
+    </section>
 </template>

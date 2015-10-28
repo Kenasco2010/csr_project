@@ -37,6 +37,9 @@ Template.companyProjectInterest.helpers({
         }
     }
 });
-Template.corporateOrgProjectsOnly.helpers({
 
+Template.corporateOrgProjectsOnly.helpers({
+    corpOrgProjOnly: function (){
+        return Projects.find({})
+    }
 });
