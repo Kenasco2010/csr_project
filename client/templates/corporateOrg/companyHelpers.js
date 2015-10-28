@@ -36,4 +36,7 @@ Template.companyProjectInterest.helpers({
             return "No Company Project Interest"
         }
     }
-})
+});
+Template.corporateOrgProjectsOnly.helpers({
+
+});

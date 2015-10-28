@@ -1,0 +1,14 @@
+<template name="myBids">
+    {{#each myBids}}
+Budget for the project: {{budget}}<br/>
+Skills you posses for the project: {{skills}}<br/>
+Time Line proposed for the project: {{timeLinePropose}}<br/>
+Your experience: {{experience}}<br/>
+Name of Project: {{projectName}}<br/>
+Company that posted the project: {{projectPostedByCompany}}<br/>
+Name of Ngo/Corporate org: {{projectBidBy}}<br/>
+file upload
+        {{else}}
+            No Bid on any project
+        {{/each}}
+</template>
