@@ -1,30 +1,29 @@
-<template name="projectDetails">
-    <!-- <h2>Project Details</h2>
-    {{#with projectDetail}}
-        {{projectName}}<br/>
-        {{scope}}<br/>
-        {{areaOfExecution}}<br/>
-        {{budget}}<br/>
-        {{timeLine}}<br/>
-        {{endGoal}}<br/>
-        {{influencer}}<br/>
-        {{status}}<br/>
-        {{projectBio}}<br/>
-        {{targetAudience}}<br/>
-        {{#with FS.GetFile 'images' picture}}
-            <img class="" src="{{this.url}}" alt="" >
+<template name="companyProjectDetail">
+<section class="main-content-wrapper">
 
-        {{/with}}
-    {{/with}} -->
-        <!--<a href="{{pathFor 'updateProject'}}" id="updateProject" class="btn btn-primary" type="submit">Update Project</a>-->
-        <!--<a href="#" type="submit" class="btn btn-primary">view more</a>-->
-        <!--{{> quickRemoveButton collection="Projects" _id=this._id onError=onError onSuccess=onSuccess beforeRemove=beforeRemove class="btn btn-danger"}}-->
+        <div class="pageheader">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="toggle-navigation toggle-left">
+                    <button class="sidebar-toggle" id="toggle-left">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </li>
+            </ul>
+            <h1>Dashboard</h1>
+            <p class="description">Welcome to NEUBOARD Responsive Admin Theme</p>
+            <div class="breadcrumb-wrapper hidden-xs">
+                <span class="label">You are here:</span>
+                <ol class="breadcrumb">
+                    <li class="active">Dashboard</li>
+                </ol>
+            </div>
+        </div>
 
-        <section id="main-content" class="main-content pad-60">
+	<section id="main-content" class="main-content pad-60">
             <div class="container">
-                {{#with projectDetail}}
+                {{#with companyProject}}
                 <div class="row">
-                    <div class="col-sm-6 col-xs-12">
+                    <div class="col-sm-5 col-xs-12">
                         <div class="article">
                             <h3>Welcome to {{projectName}}</h3>
                             <h4>This Project will last for {{timeLine}}</h4>
@@ -48,5 +47,5 @@
             {{/with}}
             </div>
 </section>
-
+</section>
 </template>
