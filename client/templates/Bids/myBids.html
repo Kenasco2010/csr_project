@@ -1,0 +1,18 @@
+<template name="myBids">
+    <div class="col-md-6 col-md-offset-3">
+        <h1><u>Bidded Projects</u></h1>
+        {{#each myBids}}
+            Budget for the project: {{budget}}<br/>
+            Skills you posses for the project: {{skills}}<br/>
+            Time Line proposed for the project: {{timeLinePropose}}<br/>
+            Your experience: {{experience}}<br/>
+            Name of Project: {{projectName}}<br/>
+            Company that posted the project: {{projectPostedByCompany}}<br/>
+            Name of Ngo/Corporate org: {{projectBidBy}}<br/>
+            file upload
+        {{else}}
+            No Bid on any project
+        {{/each}}
+    </div>
+
+</template>
