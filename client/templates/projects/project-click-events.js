@@ -25,4 +25,9 @@ Template.projectList.events({
     'click #updateProject': function () {
         Session.set("updateProject", this._id)
     }
-})
+});
+//Template.projectDetails.events({
+//    'click .createBid': function () {
+//        $("#createBidForm").modal("show")
+//    }
+//});
