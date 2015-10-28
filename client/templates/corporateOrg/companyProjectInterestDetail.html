@@ -1,0 +1,51 @@
+<template name="companyProjectDetail">
+<section class="main-content-wrapper">
+
+        <div class="pageheader">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="toggle-navigation toggle-left">
+                    <button class="sidebar-toggle" id="toggle-left">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </li>
+            </ul>
+            <h1>Dashboard</h1>
+            <p class="description">Welcome to NEUBOARD Responsive Admin Theme</p>
+            <div class="breadcrumb-wrapper hidden-xs">
+                <span class="label">You are here:</span>
+                <ol class="breadcrumb">
+                    <li class="active">Dashboard</li>
+                </ol>
+            </div>
+        </div>
+
+	<section id="main-content" class="main-content pad-60">
+            <div class="container">
+                {{#with companyProject}}
+                <div class="row">
+                    <div class="col-sm-5 col-xs-12">
+                        <div class="article">
+                            <h3>Welcome to {{projectName}}</h3>
+                            <h4>This Project will last for {{timeLine}}</h4>
+                            <p class="text-justify">{{projectBio}}</p>
+                            <p class="text-justify">{{budget}}
+                            {{budget}} {{endGoal}} {{status}}
+                            {{targetAudience}}
+                            </p>
+                        </div> <!--/.article-->
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div id="about-slider" class="about-slider">
+                            <div class="item">
+                            {{#with FS.GetFile 'images' picture}}
+                                <img src="{{this.url}}" alt="slider1" height="260" width="500">
+                            {{/with}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/with}}
+            </div>
+</section>
+</section>
+</template>

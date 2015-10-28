@@ -47,25 +47,26 @@
    </div>
 </div>
 <form role="form">
-   <div class="row setup-content" id="step-1">
-       <div class="col-xs-12">
-           <div class="col-md-8 col-md-offset-2">
-               <h3> Step 1</h3>
-               <div class="form-group">
-                   <h4>Add your company logo</h4>
-                   {{> afQuickField name="picture" }}
-                   {{> afQuickField name='companyName'}}
-                   {{> afQuickField name='focus'  row=3}}
-                   {{> afQuickField name='yearOfEstablishment' type="bootstrap-datepicker" buttonClasses="glyphicon glyphicon-calendar"}}
-                   {{> afQuickField name='mission' rows=6}}
-                   {{> afQuickField name='vision' rows=6}}
-                   {{> afQuickField name='contact'}}
-                   {{> afQuickField name='founder'}}
 
-               </div>
-           </div>
-       </div>
-   </div>
+    <div class="row setup-content" id="step-1">
+        <div class="col-xs-12">
+            <div class="col-md-8 col-md-offset-2">
+                <h3> Step 1</h3>
+                <div class="form-group">
+                    <h4>Add your company logo</h4>
+                    {{> afQuickField name="picture" }}
+                    {{> afQuickField name='companyName'}}
+                    {{> afQuickField name='focus'  row=3}}
+                    {{> afQuickField name='yearOfEstablishment' type="bootstrap-datepicker" buttonClasses="glyphicon glyphicon-calendar"}}
+                    {{> afQuickField name='mission' rows=6}}
+                    {{> afQuickField name='vision' rows=6}}
+                    {{> afQuickField name='contact'}}
+                    {{> afQuickField name='founder'}}
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </form>
      <button type="submit" class="btn btn-primary">Save</button>
@@ -161,7 +162,6 @@
                        {{accreditation}}<br/>
                    </h4>
                        <a href="{{pathFor 'updateNgoProfile'}}" class="updateNgoProfile btn btn-primary">Update Profile</a>
-
                    {{/with}}
                </div>
                </div>

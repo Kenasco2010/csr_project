@@ -1,5 +1,7 @@
 <template name="showCompanyProfile">
+
     <section class="main-content-wrapper">
+
 
         <div class="pageheader">
             <ul class="nav navbar-nav navbar-left">
@@ -16,11 +18,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-xs-10">
-                        
+
                         <h3>Welcome to {{corpCompanyName}}</h3>
-                        ]
+                        
                         <div class="panel panel-default chat-widget card">
-                           <div class="panel-body">
+                         <div class="panel-body">
                             <label>Bio<p class="text-justify">{{bio}}</p></label>
                         </div></div>
 
@@ -34,21 +36,21 @@
                             <div id="about-slider" class="about-slider">
                                 <div class="container">
                                     <div class="col-md-12 col-md-offset-0">
-                                     {{#with FS.GetFile 'images' picture}}
-                                     <img class="" src="{{this.url}}" alt="" height="260" width="555">
-                                     {{/with}}
-                                 </div>
-                             </div>
-                         </div>
-                         <div class="container">
+                                       {{#with FS.GetFile 'images' picture}}
+                                       <img class="" src="{{this.url}}" alt="" height="260" width="555">
+                                       {{/with}}
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="container">
                             <div class="sm-title">
                                 <h1>More About Us<span class="pull-right label label-default">:)</span></h1>
                             </div>
                             <div class="page-widget-section">
                                 <div class="container">
                                     <div class="row">
-                                     <div class="col-sm-6 col-xs-10">
-                                         <div class="panel with-nav-tabs panel-default">
+                                       <div class="col-sm-6 col-xs-10">
+                                           <div class="panel with-nav-tabs panel-default">
                                             <div class="panel-heading">
                                                 <ul class="nav nav-tabs">
                                                     <li class="active"><a href="#tab1default" data-toggle="tab">Vision</a></li>
@@ -67,15 +69,19 @@
                                     </div> 
                                 </div>
                                 
+
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div> 
             <a href="{{pathFor 'updateCompanyProfile'}}" class="updateCompanyProfile btn btn-primary">Update Profile</a>
         </div> 
-        {{/with}}
+    {{/with}}
     </section>
 </section>
+
+
 
 </template>

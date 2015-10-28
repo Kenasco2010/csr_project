@@ -24,88 +24,121 @@
       <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/router.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="-7.967742">
+              <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+=======
             <state vertical-scroll-proportion="0.0">
               <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createNgoProfile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/NGO/createNgoProfile.html">
+      <file leaf-file-name="project-List.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/projects/project-List.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="-6.387097">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+=======
             <state vertical-scroll-proportion="0.0">
               <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show-ngo-profile.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/templates/NGO/show-ngo-profile.html">
+      <file leaf-file-name="companyProjectInterest.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/companyProjectInterest.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="-1.9354838">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+=======
             <state vertical-scroll-proportion="0.6899489">
               <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ngoHelpers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/NGO/ngoHelpers.js">
+      <file leaf-file-name="MyCompanyProfile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/MyCompanyProfile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="35" />
+            <state vertical-scroll-proportion="-2.6451614">
+              <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ngoHooks.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/NGO/ngoHooks.js">
+      <file leaf-file-name="show-ngo-profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/NGO/show-ngo-profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state vertical-scroll-proportion="-7.612903">
+              <caret line="89" column="55" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="packages" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <file leaf-file-name="sidebarHelpers.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/templates/Dashboard/sidebarHelpers.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.13728549">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+=======
             <state vertical-scroll-proportion="0.0">
               <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/home.html">
+      <file leaf-file-name="CorpOrg_Profile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collections/CorpOrg_Profile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+=======
               <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/shared/navigation.html">
+      <file leaf-file-name="dashboard-Sidebar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/Dashboard/dashboard-Sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="-0.62903225">
+              <caret line="364" column="16" selection-start-line="364" selection-start-column="16" selection-end-line="364" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#template#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#template#1;n#!!top" expanded="true" />
+              </folding>
+=======
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
               <folding />
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NGO_Profile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/collections/NGO_Profile.js">
+      <file leaf-file-name="updateCompanyProfile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/updateCompanyProfile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state vertical-scroll-proportion="-17.483871">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,8 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/templates/signUp_config.js" />
-        <option value="$PROJECT_DIR$/client/templates/NGO/ngo-profile.html" />
         <option value="$PROJECT_DIR$/client/templates/NGO/NgoEvents.js" />
         <option value="$PROJECT_DIR$/lib/collections/images.js" />
         <option value="$PROJECT_DIR$/server/allows.js" />
@@ -130,17 +161,14 @@
         <option value="$PROJECT_DIR$/client/templates/projects/project-click-events.js" />
         <option value="$PROJECT_DIR$/client/templates/projects/updateProject.html" />
         <option value="$PROJECT_DIR$/client/templates/projects/viewProjectDetails.html" />
-        <option value="$PROJECT_DIR$/client/templates/projects/create-Project.html" />
         <option value="$PROJECT_DIR$/client/css/style.css" />
         <option value="$PROJECT_DIR$/client/templates/Dashboard/dashboard-CSS.css" />
         <option value="$PROJECT_DIR$/client/templates/projects/project-Hooks.js" />
-        <option value="$PROJECT_DIR$/client/templates/corporateOrg/updateCompanyProfile.html" />
         <option value="$PROJECT_DIR$/client/templates/signUp/signUp_config.js" />
         <option value="$PROJECT_DIR$/client/compatibility/script.js" />
         <option value="$PROJECT_DIR$/client/templates/NGO/ngoCss.css" />
         <option value="$PROJECT_DIR$/client/templates/NGO/ngoCss.less" />
         <option value="$PROJECT_DIR$/client/templates/NGO/NgoOnrendered.js" />
-        <option value="$PROJECT_DIR$/client/templates/corporateOrg/MyCompanyProfile.html" />
         <option value="$PROJECT_DIR$/lib/collections/CorpOrg_Profile.js" />
         <option value="$PROJECT_DIR$/client/templates/corporateOrg/CreateCorporateProfile.html" />
         <option value="$PROJECT_DIR$/client/templates/projects/project-Helpers.js" />
@@ -149,24 +177,29 @@
         <option value="$PROJECT_DIR$/client/templates/masterLayout.html" />
         <option value="$PROJECT_DIR$/client/templates/Dashboard/sidebar.html" />
         <option value="$PROJECT_DIR$/client/js/dashboard-Js/app.js" />
-        <option value="$PROJECT_DIR$/client/templates/projects/project-List.html" />
-        <option value="$PROJECT_DIR$/client/templates/Dashboard/dashboard-Sidebar.html" />
         <option value="$PROJECT_DIR$/client/templates/Dashboard/dashboard-CSS.less" />
         <option value="$PROJECT_DIR$/client/templates/Dashboard/sample-form.html" />
         <option value="$PROJECT_DIR$/client/templates/NGO/createNgoProfile.js" />
         <option value="$PROJECT_DIR$/client/templates/NGO/ngo.css" />
-        <option value="$PROJECT_DIR$/lib/router.js" />
         <option value="$PROJECT_DIR$/client/templates/NGO/update_Ngo_profile.html" />
         <option value="$PROJECT_DIR$/server/methods.js" />
-        <option value="$PROJECT_DIR$/client/templates/NGO/NgoClickEvents.js" />
         <option value="$PROJECT_DIR$/client/templates/home.html" />
         <option value="$PROJECT_DIR$/client/shared/navigation.html" />
         <option value="$PROJECT_DIR$/client/templates/NGO/ngoHooks.js" />
         <option value="$PROJECT_DIR$/lib/collections/NGO_Profile.js" />
-        <option value="$PROJECT_DIR$/client/templates/NGO/createNgoProfile.html" />
         <option value="$PROJECT_DIR$/.meteor/packages" />
         <option value="$PROJECT_DIR$/client/templates/NGO/ngoHelpers.js" />
         <option value="$PROJECT_DIR$/client/templates/NGO/show-ngo-profile.html" />
+        <option value="$PROJECT_DIR$/client/templates/NGO/NgoClickEvents.js" />
+        <option value="$PROJECT_DIR$/client/templates/corporateOrg/companyHooks.js" />
+        <option value="$PROJECT_DIR$/client/templates/projects/project-List.html" />
+        <option value="$PROJECT_DIR$/lib/router.js" />
+        <option value="$PROJECT_DIR$/client/templates/NGO/createNgoProfile.html" />
+        <option value="$PROJECT_DIR$/client/templates/projects/create-Project.html" />
+        <option value="$PROJECT_DIR$/client/templates/Dashboard/dashboard-Sidebar.html" />
+        <option value="$PROJECT_DIR$/client/templates/corporateOrg/updateCompanyProfile.html" />
+        <option value="$PROJECT_DIR$/client/templates/corporateOrg/MyCompanyProfile.html" />
+        <option value="$PROJECT_DIR$/client/templates/Dashboard/sidebarHelpers.js" />
       </list>
     </option>
   </component>
@@ -336,6 +369,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corporateOrg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csr_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csr_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="both" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -415,14 +470,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="62" y="-4" width="1305" height="773" extended-state="6" />
+=======
     <frame x="55" y="24" width="1305" height="744" extended-state="0" />
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22758621" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.267076" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.533532" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -453,14 +517,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="31" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/NGO/ngoHelpers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -552,6 +608,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/companyHooks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -559,6 +617,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
     <entry file="file://$PROJECT_DIR$/client/templates/projects/project-Hooks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20952381">
@@ -587,6 +646,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/MyCompanyProfile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.67866325">
@@ -601,6 +662,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
     <entry file="file://$PROJECT_DIR$/client/templates/projects/project-Helpers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06864274">
@@ -608,6 +670,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/companyProjectInterest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2885246">
@@ -615,6 +679,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
     <entry file="file://$PROJECT_DIR$/client/templates/masterLayout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64918035">
@@ -629,6 +694,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/client/templates/projects/project-List.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.062295083">
@@ -643,6 +710,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
     <entry file="file://$PROJECT_DIR$/client/js/dashboard-Js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2059282">
@@ -657,6 +725,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/client/templates/Dashboard/dashboard-Sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.1639345">
@@ -664,6 +734,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
     <entry file="file://$PROJECT_DIR$/client/templates/Dashboard/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -678,6 +749,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/companyHelpers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5148206">
@@ -692,6 +765,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
     <entry file="file://$PROJECT_DIR$/client/templates/signUp/signUp_config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -706,6 +780,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/updateCompanyProfile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5409836">
@@ -713,6 +789,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
     <entry file="file://$PROJECT_DIR$/client/templates/NGO/createNgoProfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.79407173">
@@ -734,6 +811,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/client/templates/NGO/NgoClickEvents.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5547704">
@@ -741,6 +820,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
     <entry file="file://$PROJECT_DIR$/client/shared/navigation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -753,14 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collections/NGO_Profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -796,26 +868,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/NGO/NgoClickEvents.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/companyHooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.620689">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/NGO_Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.44617784">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+=======
+        <state vertical-scroll-proportion="0.0">
           <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/NGO/createNgoProfile.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="25.548388">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/projects/create-Project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32459018">
+          <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/Dashboard/dashboard-Sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.62903225">
+          <caret line="364" column="16" selection-start-line="364" selection-start-column="16" selection-end-line="364" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#template#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#template#1;n#!!top" expanded="true" />
+          </folding>
+=======
         <state vertical-scroll-proportion="0.0">
           <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
+          <folding />
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/updateCompanyProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.483871">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/CorpOrg_Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.967742">
+          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/NGO/show-ngo-profile.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-7.612903">
+          <caret line="89" column="55" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/MyCompanyProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6451614">
+          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/companyProjectInterest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9354838">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/corporateOrg/companyHelpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6521061">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/projects/project-List.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/Dashboard/sidebarHelpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13728549">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+=======
         <state vertical-scroll-proportion="0.6899489">
           <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+>>>>>>> 586d57224d74b1b5eb9d61b12956fe1495394d2a
           <folding />
         </state>
       </provider>

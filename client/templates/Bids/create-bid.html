@@ -1,0 +1,31 @@
+<template name="createBid">
+    <div class="modal fade" id="createBidForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <!--{{#autoForm collection="Bids" id="insertbidForm" type="insert"}}-->
+                        <!--<fieldset>-->
+                            <!--<legend>Bid for this project</legend>-->
+                            <!--{{> afQuickField name='budget'}}-->
+                            <!--{{> afQuickField name='skills'}}-->
+                            <!--{{> afQuickField name='timeLinePropose'}}-->
+                            <!--{{> afQuickField name='experience'}}-->
+
+                            <!--<h4>Upload your file</h4>-->
+                            <!--{{> afQuickField name="uploadfile" type="cfs-file" collection="files" }}-->
+                        <!--</fieldset>-->
+                        <!--<button type="submit" id="insertProject" class="btn btn-primary">Insert</button>-->
+                    <!--{{/autoForm}}-->
+                    {{> quickForm collection="Bids" id="insertBidsForm" type="insert"}}
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
