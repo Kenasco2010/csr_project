@@ -1,7 +1,9 @@
 // Template.navigation.events({
-// 	'click #dashboard': function () {
+// 	'click .dashboard': function () {
 // 		if(Meteor.user().profile.companyType === "ngo"){
 // 			Router.go('showNGOProfile')
+// 		} else {
+// 			Router.go('showCompanyProfile')
 // 		}
 // 	}
 // });

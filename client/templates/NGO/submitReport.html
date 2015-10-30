@@ -1,0 +1,44 @@
+<template name="submitReport">
+
+<section class="main-content-wrapper">
+
+        <div class="pageheader">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="toggle-navigation toggle-left">
+                    <button class="sidebar-toggle" id="toggle-left">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </li>
+            </ul>
+           
+        </div>
+
+
+
+    <section id="main-content" class="main-content pad-60" style="background-color:#ffffff; margin-top:20px;">
+
+
+    {{#autoForm collection="ProjectReports" id="insertProjectReport" type="insert"}}
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-8 col-md-8 col-sm-offset-2 col-md-offset-3">
+                    {{> afQuickField name='ngoName'}}
+                    {{> afQuickField name='projectName'}}
+                    {{> afQuickField name='currentStatus'}}
+                    {{> afQuickField name='remarks' rows=3}}
+                    {{> afQuickField name='budgetSpent'}}
+                    {{> afQuickField name='difficulty'}}
+                    {{> afQuickField name='uploadfile'}}
+                    </div>
+                </div>
+
+
+        </div>
+         <button type="submit" class="btn btn-primary pull right">Submit Report</button>
+
+    {{/autoForm}}
+    </section>
+    
+</section>
+	
+</template>

@@ -1,4 +1,18 @@
 <template name="projectList">
+    <section class="main-content-wrapper">
+
+        <div class="pageheader">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="toggle-navigation toggle-left">
+                    <button class="sidebar-toggle" id="toggle-left">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </li>
+            </ul>
+            
+        </div>
+
+
     <section id="causes" class="causes">
         <div class="container">
             <div class="row">
@@ -12,7 +26,7 @@
                                 <div class="grid">
                                     <figure class="effect-oscar">
                                         {{#with FS.GetFile 'images' picture}}
-                                        <img class="" src="{{this.url}}" alt="ug-1" height="211" width="360">
+                                        <img class="" src="{{this.url}}" alt="ug-1" height="220" width="360">
                                         {{/with}}
                                         <figcaption>
                                             <a href="{{pathFor 'projectDetails'}}" class="btn btn-causes">View details</a>
@@ -28,6 +42,7 @@
             </div>
     </div>
     </div>
+</section>
 </section>
 </template>
 
