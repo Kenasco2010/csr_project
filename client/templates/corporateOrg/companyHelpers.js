@@ -46,3 +46,4 @@ Template.companyProjectInterest.helpers({
 //     return companytype;
 //   }
 // });
+

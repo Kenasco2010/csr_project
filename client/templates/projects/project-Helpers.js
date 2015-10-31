@@ -27,3 +27,11 @@ Template.projectList.helpers({
         };
     }
 });
+Template.projectDetails.helpers({
+    ownerOfProject: function () {
+         ownerOfProject = Projects.find({companyOwner: Meteor.userId()})
+        if (!ownerOfProject){
+            return true;
+        }
+    }
+});
