@@ -2,12 +2,12 @@ Template.projectList.helpers({
     listOfProjects: function () {
         return Projects.find({})
     }
-})
+});
 Template.updateProject.helpers({
     updateProject: function () {
         return Projects.findOne(Session.get("updateProject"))
     }
-})
+});
 Template.projectList.helpers({
     docs: function () {
         return Projects.find();
@@ -29,7 +29,7 @@ Template.projectList.helpers({
 });
 Template.projectDetails.helpers({
     ownerOfProject: function () {
-         ownerOfProject = Projects.find({companyOwner: Meteor.userId()})
+         ownerOfProject = this._id === Meteor.userId();
         if (!ownerOfProject){
             return true;
         }

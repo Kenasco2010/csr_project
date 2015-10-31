@@ -1,26 +1,18 @@
 <template name="projectDetails">
-    <!-- <h2>Project Details</h2>
-    {{#with projectDetail}}
-        {{projectName}}<br/>
-        {{scope}}<br/>
-        {{areaOfExecution}}<br/>
-        {{budget}}<br/>
-        {{timeLine}}<br/>
-        {{endGoal}}<br/>
-        {{influencer}}<br/>
-        {{status}}<br/>
-        {{projectBio}}<br/>
-        {{targetAudience}}<br/>
-        {{#with FS.GetFile 'images' picture}}
-            <img class="" src="{{this.url}}" alt="" >
+        <section class="main-content-wrapper">
 
-        {{/with}}
-    {{/with}} -->
-        <!--<a href="{{pathFor 'updateProject'}}" id="updateProject" class="btn btn-primary" type="submit">Update Project</a>-->
-        <!--<a href="#" type="submit" class="btn btn-primary">view more</a>-->
-        <!--{{> quickRemoveButton collection="Projects" _id=this._id onError=onError onSuccess=onSuccess beforeRemove=beforeRemove class="btn btn-danger"}}-->
+        <div class="pageheader">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="toggle-navigation toggle-left">
+                    <button class="sidebar-toggle" id="toggle-left">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </li>
+            </ul>
+            
+        </div>
 
-        <section id="main-content" class="main-content pad-60">
+        <section id="main-content" class="main-content pad-60" style="margin-top:20px;">
             <div class="container">
                 {{#with projectDetail}}
                 <div class="row">
@@ -35,7 +27,7 @@
                             </p>
                         </div> <!--/.article-->
                     </div>
-                    <div class="col-sm-6 col-xs-12">
+                    <div class="col-sm-4 col-xs-12">
                         <div id="about-slider" class="about-slider">
                             <div class="item">
                             {{#with FS.GetFile 'images' picture}}
@@ -50,6 +42,7 @@
                 <button type="submit" class="btn btn-primary createBid" data-toggle="modal" data-target="#createBidForm">Bid for Project</button>
 {{/if}}
             </div>
+</section>
 </section>
 
 </template>

@@ -1,6 +1,7 @@
-<template name="myBids">
+<!-- <template name="myBids">
+<h1><u>Bidded Projects</u></h1>
     <div class="col-md-6 col-md-offset-3">
-        <h1><u>Bidded Projects</u></h1>
+        
         {{#each myBids}}
             Budget for the project: {{budget}}<br/>
             Skills you posses for the project: {{skills}}<br/>
@@ -13,6 +14,49 @@
         {{else}}
             No Bid on any project
         {{/each}}
-    </div>
 
+    </div>
+</template> -->
+ 
+<template name="myBids">
+   <section class="main-content-wrapper">
+
+        <div class="pageheader">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="toggle-navigation toggle-left">
+                    <button class="sidebar-toggle" id="toggle-left">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+
+ <section id="main-content" class="animated fadeInUp">
+   <div class="row">
+   {{#each myBids}}
+   <div class="col-md-4 col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading"> <h4>{{projectPostedByCompany}}<a href="{{pathFor 'submitReport'}}" class="btn btn-primary pull-right" title="Submit Report on this project">Submit Report</a></h4>
+          
+          </div>
+            <div class="panel-body">
+              <div class="list-group">
+                <a href="#" class="list-group-item">Time Line proposed for the project: &nbsp;{{timeLinePropose}}</a>
+                <p class="list-group-item">{{projectBidBy}}</p>
+                <p class="list-group-item">{{projectName}}</p>
+                <p class="list-group-item">Skills you posses for the project: &nbsp; {{skills}}</p>
+              </div>
+            </div>
+        </div>
+
+    </div>
+     {{else}}
+            No Bid on any project
+    {{/each}}
+
+    </div>
+</section>
+
+</section>
 </template>
