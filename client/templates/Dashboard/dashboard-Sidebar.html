@@ -135,7 +135,7 @@
             <nav>
                 <h5 class="sidebar-header">Navigation</h5>
                 <ul class="nav nav-pills nav-stacked">
-                    <!-- <li class="active">
+                    <li class="active">
                         <a href="{{pathFor 'dashboardContent'}}" title="Dashboard">
                             <i class="fa  fa-fw fa-tachometer"></i> Dashboard
                         </a>
@@ -152,12 +152,12 @@
                         </a>
 
 
-                    </li> -->
-                    <li class="active">
-                        <a href="" title="Dashboard">
-                            <i class="fa  fa-fw fa-tachometer"></i>Updates
-                        </a>
                     </li>
+                    <!--<li class="active">-->
+                        <!--<a href="" title="Dashboard">-->
+                            <!--<i class="fa  fa-fw fa-tachometer"></i>Updates-->
+                        <!--</a>-->
+                    <!--</li>-->
                     <li  data-toggle="collapse" data-target="#products" class="collapsed">
                         <a href="#"><i class="fa fa-gift fa-lg"></i> Projects <span class="arrow"></span></a>
                     </li>
@@ -180,32 +180,12 @@
                     </li>
                 </ul>
             </nav>
-            <!-- <h5 class="sidebar-header">Account Settings</h5>
-            <div class="setting-list">
-                <div class="row">
-                    <div class="col-xs-8">
-                        <label for="check1" class="control-label">Share your status</label>
-                    </div>
-                    <div class="col-xs-4">
-                        <input type="checkbox" class="js-switch" checked id="check1" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-8">
-                        <label for="check2" class="control-label">Push Notifications</label>
-                    </div>
-                    <div class="col-xs-4">
-                        <input type="checkbox" class="js-switch" id="check2" />
-                    </div>
-                </div>
-            </div> -->
+
         </aside>
         {{/if}}
-        <!--sidebar left end-->
-
-
  <!-- content-->
             {{> yield}}
+            {{> createBid}}
 
     <script>
         $(document).ready(function() {
@@ -252,8 +232,8 @@
                             <div class="panel panel-solid-success widget-mini">
                                 <div class="panel-body">
                                     <i class="icon-bar-chart"></i>
-                                    <span class="total text-center">$3,200</span>
-                                    <span class="title text-center">Earnings</span>
+                                    <span class="total text-center">5</span>
+                                    <span class="title text-center">Projects online</span>
                                 </div>
                             </div>
                         </div>
@@ -261,8 +241,8 @@
                             <div class="panel widget-mini">
                                 <div class="panel-body">
                                     <i class="icon-support"></i>
-                                    <span class="total text-center">1,230</span>
-                                    <span class="title text-center">Support</span>
+                                    <span class="total text-center">17</span>
+                                    <span class="title text-center">NGOs</span>
                                 </div>
                             </div>
                         </div>
@@ -270,8 +250,8 @@
                             <div class="panel widget-mini">
                                 <div class="panel-body">
                                     <i class="icon-envelope-open"></i>
-                                    <span class="total text-center">1,680</span>
-                                    <span class="title text-center">Messages</span>
+                                    <span class="total text-center">12</span>
+                                    <span class="title text-center">Corporate Organizations</span>
                                 </div>
                             </div>
                         </div>
@@ -279,7 +259,7 @@
                             <div class="panel panel-solid-info widget-mini">
                                 <div class="panel-body">
                                     <i class="icon-user"></i>
-                                    <span class="total text-center">12,680</span>
+                                    <span class="total text-center">29</span>
                                     <span class="title text-center">Signups</span>
                                 </div>
                             </div>
@@ -289,7 +269,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="panel panel-default browser-chart">
                         <div class="panel-heading">
-                            <h3 class="panel-title">BROWSER STATS</h3>
+                            <h3 class="panel-title">SUPPORTED BROWSERS</h3>
                         </div>
                         <div class="panel-body">
                             <div class="row">
@@ -314,7 +294,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Monthly Goal</h3>
+                            <h3 class="panel-title">Social Meter</h3>
                             <div class="actions pull-right">
                                 <i class="fa fa-expand"></i>
                             </div>

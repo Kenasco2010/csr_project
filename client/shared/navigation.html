@@ -22,18 +22,7 @@
 		                        <a href="{{pathFor 'index'}}" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 
 		                    </li>
-		                    <!--<li class="dropdown">-->
-		                        <!--<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>-->
-		                        <!--<ul class="dropdown-menu" role="menu">-->
-		                            <!--<li><a href="about-us.html">About us</a></li>-->
-		                            <!--<li><a href="about-us-2.html">About us 2</a></li>-->
-		                            <!--<li><a href="volunteer.html">Be a volunteer</a></li>-->
-		                            <!--<li><a href="services.html">Services</a></li>-->
-		                            <!--<li><a href="gallery.html">Gallery</a></li>-->
-		                            <!--<li><a href="event.html">Event</a></li>-->
-		                            <!--<li><a href="faq.html">Faqs</a></li>-->
-		                        <!--</ul>-->
-		                    <!--</li>-->
+                            {{#if currentUser}}
 		                    <li class="dropdown">
 		                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects</a>
 		                        <ul class="dropdown-menu" role="menu">
@@ -47,44 +36,16 @@
 		                            <!--<li><a href="causes-style-3.html">Style 3</a></li>-->
 		                        </ul>
 		                    </li>
-		                    <!--<li class="dropdown megamenu">-->
-								<!--<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Features</a>-->
-								<!--<div class="dropdown-menu mega-dropdown-menu container row">-->
-									<!--<ul class="col-sm-4" role="menu">-->
-										<!--<li><a href="accordion.html">Accordion &amp; Toggle</a></li>-->
-										<!--<li><a href="alert.html">Box alert</a></li>-->
-										<!--<li><a href="heading.html">Headings</a></li>-->
-										<!--<li><a href="animated-counter.html">Animated Counter</a></li>-->
-									<!--</ul>-->
-									<!--<ul class="col-sm-4" role="menu">-->
-										<!--<li><a href="pie-chart.html">Pie charts</a></li>-->
-										<!--<li><a href="pricing.html">Pricing Tables</a></li>-->
-										<!--<li><a href="progress-bar.html">Progress Bar</a></li>-->
-										<!--<li><a href="lists.html">Types of lists</a></li>-->
-									<!--</ul>-->
-									<!--<ul class="col-sm-4" role="menu">-->
-										<!--<li><a href="dropcap.html">Drop caps</a></li>-->
-										<!--<li><a href="divider.html">Dividers</a></li>-->
-										<!--<li><a href="gallery.html">Gallery</a></li>-->
-										<!--<li><a href="tooltip.html">Popover &amp; Tooltip</a></li>-->
-									<!--</ul>-->
-								<!--</div>-->
-							<!--</li>-->
+                            {{#if NGOdashboard}}
                             <li>
 		                        <a class="dashboard" href="{{pathFor 'corporateOrgProjectsOnly'}}">Dashboard</a>
 		                    </li>
-                            <!--<li class="dropdown">-->
-		                        <!--<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Preset</a>-->
-		                        <!--<ul class="dropdown-menu" role="menu">-->
-		                            <!--<li><a href="red.html">Red</a></li>-->
-		                            <!--<li><a href="orange.html">Orange</a></li>-->
-		                            <!--<li><a href="green.html">Greem</a></li>-->
-		                            <!--<li><a href="lime.html">Lime</a></li>-->
-		                            <!--<li><a href="blue.html">Blue</a></li>-->
-		                            <!--<li><a href="purple.html">Purple</a></li>-->
-		                        <!--</ul>-->
-		                    <!--</li>-->
-		                    <!--<li><a href="contact.html">Contact</a></li>-->
+                            {{else}}
+                            <li>
+                                <a class="dashboard" href="{{pathFor 'dashboardContent'}}">Dashboard</a>
+                            </li>
+                            {{/if}}
+                            {{/if}}
                             {{#if currentUser}}
 		                    <li><a href="{{pathFor 'signout'}}">signout</a></li>
                                 {{else}}
