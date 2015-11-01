@@ -1,9 +1,11 @@
-//Images.allow({
-//    'insert': function () {
-//        // add custom authentication code here
-//        return true;
-//    }
-//});
+Images.allow({
+  insert: function(userId, doc) {
+    return true;
+  },
+  download: function(userId) {
+    return true;
+  }
+});
 
 Files.allow({
     insert: function(userId, doc) {
