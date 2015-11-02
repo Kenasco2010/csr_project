@@ -25,14 +25,15 @@
                                     {{#with FS.GetFile 'images' picture}}
                                     <img class="" src="{{this.url}}" alt="ug-1" height="211" width="360">
                                     {{/with}}
-                                    <figcaption>
-                                        <a href="{{pathFor 'companyProject'}}" class="btn btn-causes">View details</a>
-                                        <h2>{{projectName}}</h2>
-                                    </figcaption>
                                 </figure>
                             </div>
-
+                        <figcaption>
+                         <h2>{{projectName}}</h2>
+                            <a href="{{pathFor 'companyProject'}}" class="btn btn-causes">View details</a>
+                           
+                        </figcaption>
                         </div>
+                        
                         
                     </div>
                 </div>
