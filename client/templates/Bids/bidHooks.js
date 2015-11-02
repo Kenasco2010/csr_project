@@ -29,6 +29,7 @@ AutoForm.hooks({
         },
         onSuccess: function(formType, result){
             sAlert.success('You have successfully made a bid to this project');
+            swal('You have successfully made a bid to this project');
             //$('#createBidForm').modal('hide');
             //Modal.hide('insertBidsForm');
         },
