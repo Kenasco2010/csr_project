@@ -4,13 +4,23 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    {{> quickForm collection="Bids" id="insertBidsForm" type="insert"}}
+                    <!--{{> quickForm collection="Bids" id="insertBidsForm" type="insert"}}-->
 
-
+                    {{#autoForm collection="Bids" id="insertBidsForm" type="insert"}}
+                        <fieldset>
+                            <legend>Bid for Project</legend>
+                            {{> afQuickField name='budget'}}
+                            {{> afQuickField name='skills'}}
+                            {{> afQuickField name='timeLinePropose'}}
+                            {{> afQuickField name='experience' }}
+                            {{> afFieldInput name="uploadfile" type="cfs-file" collection="files" }}
+                        </fieldset>
+                        <button type="submit" id="submitBid" class="btn btn-primary">Submit Bid</button>
+                    {{/autoForm}}
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    
+
                 </div>
             </div>
         </div>
